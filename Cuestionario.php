@@ -633,14 +633,91 @@
 
                                 <h1>GR II</h1>                                                                                                                                                                                                                                                                                                                                                                  
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
-                                    <div class="text-center" style="margin-top: 120px">                                                                                                                                                                                                                                                                                                                                                                 
-                                        <h2>You did it Man :-)</h2>                                                                                                                                                                                                                                                                                                                                                                 
-                                    </div>                                                                                                                                                                                                                                                                                                                                                                  
+                                <h2><b>Marque la respuesta que se le indica</b></h2>                                                                                                                                                                                                                                                                                                                                                                    
+                                    <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row show-grid">
+                                <div class="col-xs-12 col-md-7"><b>Sección/Pregunta</b></div>
+                                <div class="col-xs-6 col-md-5"><b>Repuestas: Siempre, Casi siempre, Algunas veces, Casi nunca, Nunca</b></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el tiempo destinado a trabajo y responsabilidades familiares</b></h4></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>El espacio donde trabajo me permite realizar mis actividades de manera segura e higiéne.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         &nbsp;<label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>Mi trabajo me exige hacer mucho esfuerzo físico.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         &nbsp;<label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>Me preocupa sufrir un accidente en mi trabajo.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         &nbsp;<label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row-->
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>GR III</h1>                                                                                                                                                                                                                                                                                                                                                                 
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
                                     <div class="text-center" style="margin-top: 120px">                                                                                                                                                                                                                                                                                                                                                                 
-                                        <h2>You did it Man :-)</h2>                                                                                                                                                                                                                                                                                                                                                                 
+                                        <h2> :-)</h2>                                                                                                                                                                                                                                                                                                                                                                 
                                     </div>                                                                                                                                                                                                                                                                                                                                                                  
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>Finalizar</h1>                                                                                                                                                                                                                                                                                                                                                                  
