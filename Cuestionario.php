@@ -27,7 +27,7 @@
                 <div class="col-lg-12">                                                                                                                                                                                                                                                                                                                                                                 
                     <div class="ibox">                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="ibox-title">                                                                                                                                                                                                                                                                                                                                                                    
-                            <h2>Cuestionario</h2>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h2><b>Encuesta</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
                             <div class="ibox-tools">                                                                                                                                                                                                                                                                                                                                                                    
 
                             </div>                                                                                                                                                                                                                                                                                                                                                                  
@@ -37,14 +37,14 @@
                             <form id="form" action="#" class="wizard-big">                                                                                                                                                                                                                                                                                                                                                                  
                                 <h1>Datos del Trabajador</h1>                                                                                                                                                                                                                                                                                                                                                                   
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
-                                    <h2>Informacion del Trabajador</h2>                                                                                                                                                                                                                                                                                                                                                                 
+                                    <h2><b>Información del Trabajador</b></h2>                                                                                                                                                                                                                                                                                                                                                                 
                                     <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                                         <div class="col-lg-12">                                                                                                                                                                                                                                                                                                                                                                 
 
                                         <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                         <div class="col-md-4">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content text-center">                                                                                                                                                                                                                                                                                                                                                                  
-                                <h1>Sexo</h1>                                                                                                                                                                                                                                                                                                                                                                   
+                                <h2 class="text-navy"><b>Sexo</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
 
 
                                 <div class="text-left">                                                                                                                                                                                                                                                                                                                                                                 
@@ -58,7 +58,7 @@
                         </div>                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="col-md-8">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
-                            <h1 class="text-center">Edad</h1>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h2 class="text-center text-navy"><b>Edad</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
 
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-3">                                                                                                                                                                                                                                                                                                                                                                    
@@ -94,7 +94,7 @@
                     <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                         <div class="col-md-4">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content text-center">                                                                                                                                                                                                                                                                                                                                                                  
-                                <h1>Estado Civil</h1>                                                                                                                                                                                                                                                                                                                                                                   
+                                <h2 class="text-navy"><b>Estado Civil</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
                                 <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="col-md-6">                                                                                                                                                                                                                                                                                                                                                                    
                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Casado </label></div>                                                                                                                                                                                                                                                                                                                                                                 
@@ -123,7 +123,7 @@
                         </div>                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="col-md-8">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
-                            <h1 class="text-center">Nivel Maximo de Estudios</h1>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h2 class="text-center text-navy"><b>Nivel maximo de estudios</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
 
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-3">                                                                                                                                                                                                                                                                                                                                                                    
@@ -190,7 +190,7 @@
                         <div class="col-md-5">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
 
-                            <h1 class="text-center">Contrato</h1>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h2 class="text-center text-navy"><b>Contrato</b></h2>                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-6">                                                                                                                                                                                                                                                                                                                                                                    
                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Tiempo Completo </label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -208,7 +208,7 @@
                            <div class="col-md-3">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
 
-                            <h3 class="text-center">Tipo de personal</h3>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h3 class="text-center text-navy"><b>Tipo de personal</b></h3>                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-9">                                                                                                                                                                                                                                                                                                                                                                    
                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Sindicalizado</label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -224,7 +224,7 @@
                            <div class="row">                                                                                                                                                                                                                                                                                                                                                                    
                    <div class="col-md-4">                                                                                                                                                                                                                                                                                                                                                                   
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
-                            <h1 class="text-center">Jornada</h1>
+                            <h2 class="text-center text-navy"><b>Jornada</b></h2>
                                 <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="col-md-6">                                                                                                                                                                                                                                                                                                                                                                    
                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Nocturno</label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -242,7 +242,7 @@
                         <div class="col-md-5">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
 
-                            <h3 class="text-center">Experiencia en el puesto actual</h3>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h3 class="text-center text-navy"><b>Experiencia en el puesto actual</b></h3>                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-6">                                                                                                                                                                                                                                                                                                                                                                    
                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Menos de 6 meses </label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -263,7 +263,7 @@
                            <div class="col-md-3">                                                                                                                                                                                                                                                                                                                                                                  
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
 
-                            <h3 class="text-center">Dependientes</h3>                                                                                                                                                                                                                                                                                                                                                                   
+                            <h3 class="text-center text-navy"><b>Dependientes</b></h3>                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="row">                                                                                                                                                                                                                                                                                                                                                                 
                               <div class="col-md-4">                                                                                                                                                                                                                                                                                                                                                                    
                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 1</label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -286,7 +286,7 @@
                             <div class="row" >
                             <div class="col-md-12">                                                                                                                                                                                                                                                                                                                                                                   
                             <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
-                            <h1 class="text-center">Experiencia laboral (general)</h1>
+                            <h2 class="text-center text-navy"><b>Experiencia laboral (general)</b></h2>
                                 <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
                               <div class="col-md-3">                                                                                                                                                                                                                                                                                                                                                                    
                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Menos de 6 meses</label></div>                                                                                                                                                                                                                                                                                                                                                                    
@@ -315,29 +315,320 @@
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>ET</h1>                                                                                                                                                                                                                                                                                                                                                                 
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
-                                    <h2>Marque la respuesta que se le indica</h2>                                                                                                                                                                                                                                                                                                                                                                    
-                                    <div class="row">                                                                                                                                                                                                                                                                                                                                                                   
-                                        <div class="col-lg-6">                                                                                                                                                                                                                                                                                                                                                                  
-                                            <div class="form-group">                                                                                                                                                                                                                                                                                                                                                                    
-                                                <label>First name *</label>                                                                                                                                                                                                                                                                                                                                                                 
-                                                <input id="name" name="name" type="text" class="form-control required">                                                                                                                                                                                                                                                                                                                                                                 
-                                            </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                            <div class="form-group">                                                                                                                                                                                                                                                                                                                                                                    
-                                                <label>Last name *</label>                                                                                                                                                                                                                                                                                                                                                                  
-                                                <input id="surname" name="surname" type="text" class="form-control required">                                                                                                                                                                                                                                                                                                                                                                   
-                                            </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                        </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                        <div class="col-lg-6">                                                                                                                                                                                                                                                                                                                                                                  
-                                            <div class="form-group">                                                                                                                                                                                                                                                                                                                                                                    
-                                                <label>Email *</label>                                                                                                                                                                                                                                                                                                                                                                  
-                                                <input id="email" name="email" type="text" class="form-control required email">                                                                                                                                                                                                                                                                                                                                                                 
-                                            </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                            <div class="form-group">                                                                                                                                                                                                                                                                                                                                                                    
-                                                <label>Address *</label>                                                                                                                                                                                                                                                                                                                                                                    
-                                                <input id="address" name="address" type="text" class="form-control">                                                                                                                                                                                                                                                                                                                                                                    
-                                            </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                        </div>                                                                                                                                                                                                                                                                                                                                                                  
-                                    </div>                                                                                                                                                                                                                                                                                                                                                                  
+                                    <h2><b>Marque la respuesta que se le indica</b></h2>                                                                                                                                                                                                                                                                                                                                                                    
+                                    <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row show-grid">
+                                <div class="col-xs-12 col-md-9"><b>Sección/Pregunta</b></div>
+                                <div class="col-xs-6 col-md-3"><b>Repuestas Si, No</b></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8"><h3 class="text-navy"><b>I.- Acontecimiento traumático severo.</b></h3></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha presenciado o sufrido alguna vez, durante o con motivo del trabajo un acontecimiento como los siguientes:</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Accidente que tenga como consecuencia la muerte, la pérdida de un miembro o una lesión grave?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Asaltos?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Actos violentos que derivaron en lesiones graves?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Secuestro?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Amenazas?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8"><h3 class="text-navy"><b>II.- Recuerdos persistentes sobre el acontecimiento (durante el último mes):</b></h3></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido recuerdos recurrentes sobre el acontecimiento que le provocan malestares?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido sueños de carácter recurrente sobre el acontecimiento, que le producen malestar?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8"><h3 class="text-navy"><b>III.- Esfuerzo por evitar circunstancias parecidas o asociadas al acontecimiento (durante el último mes):</b></h3></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Se ha esforzado por evitar todo tipo de sentimientos, conversaciones o situaciones que le puedan recordar el acontecimiento?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Se ha esforzado por evitar todo tipo de actividades, lugares o personas que motivan recuerdos del acontecimiento?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido dificultad para recordar alguna parte importante del evento?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha disminuido su interés en sus actividades cotidianas?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Se ha sentido usted alejado o distante de los demás?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha notado que tiene dificultad para expresar sus sentimientos?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido la impresión de que su vida se va a acortar, que va a morir antes que otras personas o que tiene un futuro limitado?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8"><h3 class="text-navy"><b>IV.- Afectación (durante el último mes):</b></h3></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido usted dificultades para dormir?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha estado particularmente irritable o le han dado arranques de coraje?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha tenido dificultad para concentrarse?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Ha estado nervioso o constantemente en alerta?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9">¿Se ha sobresaltado fácilmente por cualquier cosa?</div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
 
                                 <h1>GR II</h1>                                                                                                                                                                                                                                                                                                                                                                  
