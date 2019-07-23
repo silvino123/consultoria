@@ -332,7 +332,7 @@
                                
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha presenciado o sufrido alguna vez, durante o con motivo del trabajo un acontecimiento como los siguientes:</div>
+                                <div class="col-xs-9"><b>¿Ha presenciado o sufrido alguna vez, durante o con motivo del trabajo un acontecimiento como los siguientes:</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Accidente que tenga como consecuencia la muerte, la pérdida de un miembro o una lesión grave?</div>
+                                <div class="col-xs-9"><b>¿Accidente que tenga como consecuencia la muerte, la pérdida de un miembro o una lesión grave?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -354,7 +354,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Asaltos?</div>
+                                <div class="col-xs-9"><b>¿Asaltos?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -365,30 +365,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Actos violentos que derivaron en lesiones graves?</div>
-                                <div class="col-xs-3">
-                                <div class="row">
-                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
-                                    &nbsp;<label class="i-checks">
-                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
-                                    </div>
-                                         
-                                </div>
-                            </div>
-
-                            <div class="row show-grid">
-                                <div class="col-xs-9">¿Secuestro?</div>
-                                <div class="col-xs-3">
-                                <div class="row">
-                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
-                                    &nbsp;<label class="i-checks">
-                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
-                                    </div>
-                                         
-                                </div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-9">¿Amenazas?</div>
+                                <div class="col-xs-9"><b>¿Actos violentos que derivaron en lesiones graves?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -400,7 +377,30 @@
                             </div>
 
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</div>
+                                <div class="col-xs-9"><b>¿Secuestro?</b></div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-9"><b>¿Amenazas?</b></div>
+                                <div class="col-xs-3">
+                                <div class="row">
+                                &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
+                                    &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
+                                    </div>
+                                         
+                                </div>
+                            </div>
+
+                            <div class="row show-grid">
+                                <div class="col-xs-9"><b>¿Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -430,7 +430,7 @@
                                
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido recuerdos recurrentes sobre el acontecimiento que le provocan malestares?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido recuerdos recurrentes sobre el acontecimiento que le provocan malestares?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -441,7 +441,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido sueños de carácter recurrente sobre el acontecimiento, que le producen malestar?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido sueños de carácter recurrente sobre el acontecimiento, que le producen malestar?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -471,7 +471,7 @@
                                
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Se ha esforzado por evitar todo tipo de sentimientos, conversaciones o situaciones que le puedan recordar el acontecimiento?</div>
+                                <div class="col-xs-9"><b>¿Se ha esforzado por evitar todo tipo de sentimientos, conversaciones o situaciones que le puedan recordar el acontecimiento?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -482,7 +482,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Se ha esforzado por evitar todo tipo de actividades, lugares o personas que motivan recuerdos del acontecimiento?</div>
+                                <div class="col-xs-9"><b>¿Se ha esforzado por evitar todo tipo de actividades, lugares o personas que motivan recuerdos del acontecimiento?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -493,7 +493,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido dificultad para recordar alguna parte importante del evento?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido dificultad para recordar alguna parte importante del evento?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -504,7 +504,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha disminuido su interés en sus actividades cotidianas?</div>
+                                <div class="col-xs-9"><b>¿Ha disminuido su interés en sus actividades cotidianas?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -515,7 +515,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Se ha sentido usted alejado o distante de los demás?</div>
+                                <div class="col-xs-9"><b>¿Se ha sentido usted alejado o distante de los demás?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -526,7 +526,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha notado que tiene dificultad para expresar sus sentimientos?</div>
+                                <div class="col-xs-9"><b>¿Ha notado que tiene dificultad para expresar sus sentimientos?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -538,7 +538,7 @@
                             </div>
 
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido la impresión de que su vida se va a acortar, que va a morir antes que otras personas o que tiene un futuro limitado?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido la impresión de que su vida se va a acortar, que va a morir antes que otras personas o que tiene un futuro limitado?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -568,7 +568,7 @@
                                
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido usted dificultades para dormir?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido usted dificultades para dormir?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -579,7 +579,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha estado particularmente irritable o le han dado arranques de coraje?</div>
+                                <div class="col-xs-9"><b>¿Ha estado particularmente irritable o le han dado arranques de coraje?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -590,7 +590,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha tenido dificultad para concentrarse?</div>
+                                <div class="col-xs-9"><b>¿Ha tenido dificultad para concentrarse?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -601,7 +601,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Ha estado nervioso o constantemente en alerta?</div>
+                                <div class="col-xs-9"><b>¿Ha estado nervioso o constantemente en alerta?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -612,7 +612,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid">
-                                <div class="col-xs-9">¿Se ha sobresaltado fácilmente por cualquier cosa?</div>
+                                <div class="col-xs-9"><b>¿Se ha sobresaltado fácilmente por cualquier cosa?</b></div>
                                 <div class="col-xs-3">
                                 <div class="row">
                                 &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
