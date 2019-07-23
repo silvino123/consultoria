@@ -634,7 +634,8 @@
                                 <h1>GR II</h1>                                                                                                                                                                                                                                                                                                                                                                  
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
                                 <h2><b>Marque la respuesta que se le indica</b></h2>                                                                                                                                                                                                                                                                                                                                                                    
-                                    <div class="row">
+                  
+                    <div class="row">
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                        
@@ -821,6 +822,99 @@
 
             </div>
             <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el esfuerzo mental que le exige su trabajo.</b></h4></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>9.Mi trabajo exige que esté muy concentrado.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>10.Mi trabajo requiere que memorice mucha información.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>11.En mi trabajo tengo que tomar decisiones difíciles muy rápido.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>12.Mi trabajo exige que atienda varios asuntos al mismo tiempo.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+
+              
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>GR III</h1>                                                                                                                                                                                                                                                                                                                                                                 
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
