@@ -48,8 +48,8 @@
                                
 
                                 <div class="text-left">
-                                <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Masulino </label></div>
-                                 <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i> Femenino </label></div>
+                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Masulino </label></div>
+                                 <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i> Femenino </label></div>
                                 </div>
                             
                             <br>
@@ -62,28 +62,28 @@
                            
                               <div class="row">
                               <div class="col-md-3">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 15 a 19 </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>20 a 24 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 15 a 19 </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>20 a 24 </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 25 a 29 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 25 a 29 </label></div>
                              </div>
                              <div class="col-md-3">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 30 a 34 </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>35 a 39 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 30 a 34 </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>35 a 39 </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 40 a 44 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 40 a 44 </label></div>
                              </div>
                              <div class="col-md-3">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 45 a 49 </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>50 a 54 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 45 a 49 </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>50 a 54 </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 55 a 59 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 55 a 59 </label></div>
                              </div>
                              <div class="col-md-3">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 60 a 64 </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>65 a 69 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 60 a 64 </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>65 a 69 </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> 70 a 75 </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> 70 a 75 </label></div>
                              </div>
                             </div>
                            </div>
@@ -97,15 +97,15 @@
                                 <h1>Estado Civil</h1>
                                 <div class="row">
                               <div class="col-md-6">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Casado </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>Soltero </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Casado </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>Soltero </label></div>
                                 
                                
                              </div>
                              
                              <div class="col-md-6">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Union Libre </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>Divorciado </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Union Libre </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>Divorciado </label></div>
                                 
                                
                              </div>
@@ -113,7 +113,7 @@
                             </div>
                             <div class="row">
                             
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Union Libre </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Union Libre </label></div>
                                
                              
                             </div>
@@ -127,22 +127,22 @@
                            
                               <div class="row">
                               <div class="col-md-3">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Primaria </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>Secundaria </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Primaria </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>Secundaria </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Preparatoria </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Preparatoria </label></div>
                              </div>
                              <div class="col-md-4">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Preparatoria Trunca </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>Tecnico Superior </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Preparatoria Trunca </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>Tecnico Superior </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i>Licenciatura Trunca </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i>Licenciatura Trunca </label></div>
                              </div>
                              <div class="col-md-4">
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Licenciatura </label></div>
-                                <div class="i-checks"><label> <input type="radio"  value="option2" name="a"> <i></i>Maestría </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Licenciatura </label></div>
+                                <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i>Maestría </label></div>
                                 
-                               <div class="i-checks"><label> <input type="radio" value="option1" name="a"> <i></i> Doctorado </label></div>
+                               <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Doctorado </label></div>
                              </div>
                             
                             </div>
