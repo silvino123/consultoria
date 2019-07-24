@@ -48,8 +48,8 @@
 
 
                                 <div class="text-left">                                                                                                                                                                                                                                                                                                                                                                 
-                                <div class="i-checks"><label> <input type="checkbox" value="option1" name="a"> <i></i> Masulino </label></div>                                                                                                                                                                                                                                                                                                                                                                  
-                                 <div class="i-checks"><label> <input type="checkbox"  value="option2" name="a"> <i></i> Femenino </label></div>                                                                                                                                                                                                                                                                                                                                                                    
+                                <div class="i-checks" ><label> <input type="checkbox" value="option1"  id="masculino" name="masculino" onclick="Sexo()" > <i></i> Masculino </label></div>                                                                                                                                                                                                                                                                                                                                                                  
+                                 <div class="i-checks" ><label> <input type="checkbox"  value="option2"id="femenino" name="femenino" onclick="Sexo()"  > <i></i> Femenino </label></div>                                                                                                                                                                                                                                                                                                                                                                    
                                 </div>                                                                                                                                                                                                                                                                                                                                                                  
 
                             <br>                                                                                                                                                                                                                                                                                                                                                                    
@@ -913,7 +913,224 @@
 
             </div>
             <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
 
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.</b></h4></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>13.En mi trabajo soy responsable de cosas de mucho valor.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>14.Respondo ante mi jefe por los resultados de toda mi área de trabajo.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>15.En el trabajo me dan órdenes contradictorias.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>16.Considero que en mi trabajo me piden hacer cosas innecesarias.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la jornada de trabajo.</b></h4></div>
+                                <div class="col-xs-6 col-md-4"></div>
+                               
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>17.Trabajo horas extras más de tres veces a la semana.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>18.Mi trabajo me exige laborar en días de descanso, festivos o fines de semana.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>19.Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>20.Debo atender asuntos de trabajo cuando estoy en casa.</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>21.Pienso en las actividades familiares o personales cuando estoy en mi trabajo .</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid">
+                                <div class="col-xs-7"><b>22.Pienso que mis responsabilidades familiares afectan mi trabajo .</b></div>
+                                <div class="col-xs-5">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
               
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>GR III</h1>                                                                                                                                                                                                                                                                                                                                                                 
@@ -1040,14 +1257,40 @@
  <!-- iCheck -->                                                                                                                                                                                                                                                                                                                                                                    
  <script src="js/plugins/iCheck/icheck.min.js"></script>                                                                                                                                                                                                                                                                                                                                                                    
         <script>                                                                                                                                                                                                                                                                                                                                                                    
-            $(document).ready(function () {                                                                                                                                                                                                                                                                                                                                                                 
+            $(document).ready(function () { 
+
                 $('.i-checks').iCheck({                                                                                                                                                                                                                                                                                                                                                                 
                     checkboxClass: 'icheckbox_square-green',                                                                                                                                                                                                                                                                                                                                                                    
-                    radioClass: 'iradio_square-green',                                                                                                                                                                                                                                                                                                                                                                  
-                });                                                                                                                                                                                                                                                                                                                                                                 
+                    radioClass: 'iradio_square-green',  
+                                                                                                                                                                                                                                                                                                                                                         
+                });  
+                                                                                                                                                                                                                                                                                                                                                                  
             });                                                                                                                                                                                                                                                                                                                                                                 
         </script>                                                                                                                                                                                                                                                                                                                                                                   
+<script>
+ $(document).ready(function () { 
 
+$('.i-checks').iCheck({                                                                                                                                                                                                                                                                                                                                                                 
+   Sexo();  
+                                                                                                                                                                                                                                                                                                                                         
+});  
+function Sexo(){
+    let Checked = null;
+//The class name can vary
+for (let CheckBox of document.getElementsByClassName('i-checks')){
+	CheckBox.onclick = function(){
+  	if(Checked!=null){
+      Checked.checked = false;
+      Checked = CheckBox;
+    }
+    Checked = CheckBox;
+  }
+}
+}                                                                                                                                                                                                                                                                                                                                                 
+});  
+
+
+</script>
 </body>                                                                                                                                                                                                                                                                                                                                                                 
 
 
