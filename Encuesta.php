@@ -9,7 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-
+    <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
@@ -28,37 +28,21 @@
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
-                            <h5>Encuestas Realizadas</h5>
+                            <h3>Encuestas Realizadas</h3>
 
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <i class="fa fa-wrench"></i>
-                                </a>
-                                <ul class="dropdown-menu dropdown-user">
-                                    <li><a href="#">Config option 1</a>
-                                    </li>
-                                    <li><a href="#">Config option 2</a>
-                                    </li>
-                                </ul>
-                                <a class="close-link">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </div>
+                            
                         </div>
                         <div class="ibox-content">
-                            <input type="text" class="form-control input-sm m-b-xs" id="filter"
-                                   placeholder="Search in table">
+                        <input type="text" class="form-control input-sm m-b-xs" id="filter"
+                                   placeholder="Buscar...">
 
-                            <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                            <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
                                 <thead>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th data-hide="phone,tablet">Platform(s)</th>
-                                    <th data-hide="phone,tablet">Engine version</th>
+                                    <th>Folio</th>
+                                    <th>Fecha</th>
+                                    <th data-hide="phone,tablet">Empresa</th>
+                                    <th data-hide="phone,tablet">Realizada por</th>
                                     <th data-hide="phone,tablet">CSS grade</th>
                                 </tr>
                                 </thead>
@@ -366,8 +350,17 @@
 
     <!-- Sparkline demo data  -->
     <script src="js/demo/sparkline-demo.js"></script>
+ <!-- FooTable -->
+ <script src="js/plugins/footable/footable.all.min.js"></script>
+ <script>
+        $(document).ready(function() {
 
-   
+            $('.footable').footable();
+            $('.footable2').footable();
+
+        });
+
+    </script>
 </body>
 
 

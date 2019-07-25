@@ -1708,10 +1708,10 @@ div.dt-button-info {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #ddd;
-  background-color: #eee !important;
+  background-color: #eee;
 }
 .show-grid {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 /* ANIMATION */
 .css-animation-box h1 {
