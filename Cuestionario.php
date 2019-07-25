@@ -661,13 +661,13 @@
                                 <div class="col-xs-6 col-md-5"><b>Repuestas: Siempre, Casi siempre, Algunas veces, Casi nunca, Nunca</b></div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el tiempo destinado a trabajo y responsabilidades familiares.</b></h4></div>
-                                <div class="col-xs-6 col-md-4"></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el tiempo destinado a trabajo y responsabilidades familiares.</b></h3></div>
+                                <div class="col-xs-6 col-md-2"></div>
                                
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>1.El espacio donde trabajo me permite realizar mis actividades de manera segura e higiéne.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>1.El espacio donde trabajo me permite realizar mis actividades de manera segura e higiéne.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp;&nbsp;<label class="i-checks">
@@ -684,9 +684,9 @@
                                 </div>
                             </div>
                            
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>2.Mi trabajo me exige hacer mucho esfuerzo físico.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>2.Mi trabajo me exige hacer mucho esfuerzo físico.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -702,9 +702,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>3.Me preocupa sufrir un accidente en mi trabajo.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>3.Me preocupa sufrir un accidente en mi trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -721,9 +721,9 @@
                                 </div>
                             </div>
 
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>4.Considero que en mi trabajo se aplican las normas de seguridad y salud en el trabajo.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>4.Considero que en mi trabajo se aplican las normas de seguridad y salud en el trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -739,9 +739,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>5.Considero que las actividades que realizo son peligrosas.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>5.Considero que las actividades que realizo son peligrosas.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -771,13 +771,13 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la cantidad y ritmo de trabajo que tiene.</b></h4></div>
-                                <div class="col-xs-6 col-md-4"></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la cantidad y ritmo de trabajo que tiene.</b></h3></div>
+                                <div class="col-xs-6 col-md-2"></div>
                                
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>6.Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>6.Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp;&nbsp;<label class="i-checks">
@@ -794,9 +794,9 @@
                                 </div>
                             </div>
                            
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>7.Por la cantidad de trabajo que tengo debo trabajar sin parar.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>7.Por la cantidad de trabajo que tengo debo trabajar sin parar.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -812,9 +812,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>8.Considero que es necesario mantener un ritmo de trabajo acelerado .</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>8.Considero que es necesario mantener un ritmo de trabajo acelerado .</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -844,13 +844,13 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el esfuerzo mental que le exige su trabajo.</b></h4></div>
-                                <div class="col-xs-6 col-md-4"></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el esfuerzo mental que le exige su trabajo.</b></h3></div>
+                              
                                
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>9.Mi trabajo exige que esté muy concentrado.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>9.Mi trabajo exige que esté muy concentrado.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp;&nbsp;<label class="i-checks">
@@ -867,9 +867,9 @@
                                 </div>
                             </div>
                            
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>10.Mi trabajo requiere que memorice mucha información.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>10.Mi trabajo requiere que memorice mucha información.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -885,9 +885,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>11.En mi trabajo tengo que tomar decisiones difíciles muy rápido.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>11.En mi trabajo tengo que tomar decisiones difíciles muy rápido.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -903,9 +903,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>12.Mi trabajo exige que atienda varios asuntos al mismo tiempo.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>12.Mi trabajo exige que atienda varios asuntos al mismo tiempo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -935,13 +935,12 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.</b></h4></div>
-                                <div class="col-xs-6 col-md-4"></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.</b></h3></div>
                                
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>13.En mi trabajo soy responsable de cosas de mucho valor.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>13.En mi trabajo soy responsable de cosas de mucho valor.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp;&nbsp;<label class="i-checks">
@@ -958,9 +957,9 @@
                                 </div>
                             </div>
                            
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>14.Respondo ante mi jefe por los resultados de toda mi área de trabajo.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>14.Respondo ante mi jefe por los resultados de toda mi área de trabajo.</b></h3></div>
+                                <div class="col-xs-5"  style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -976,9 +975,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>15.En el trabajo me dan órdenes contradictorias.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>15.En el trabajo me dan órdenes contradictorias.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -994,9 +993,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>16.Considero que en mi trabajo me piden hacer cosas innecesarias.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>16.Considero que en mi trabajo me piden hacer cosas innecesarias.</b></h3></div>
+                                <div class="col-xs-5"  style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1026,13 +1025,13 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h4 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la jornada de trabajo.</b></h4></div>
-                                <div class="col-xs-6 col-md-4"></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la jornada de trabajo.</b></h3></div>
+                             
                                
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>17.Trabajo horas extras más de tres veces a la semana.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>17.Trabajo horas extras más de tres veces a la semana.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp;&nbsp;<label class="i-checks">
@@ -1049,9 +1048,9 @@
                                 </div>
                             </div>
                            
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>18.Mi trabajo me exige laborar en días de descanso, festivos o fines de semana.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>18.Mi trabajo me exige laborar en días de descanso, festivos o fines de semana.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1067,9 +1066,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>19.Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>19.Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1085,9 +1084,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>20.Debo atender asuntos de trabajo cuando estoy en casa.</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>20.Debo atender asuntos de trabajo cuando estoy en casa.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1103,9 +1102,9 @@
                                          
                                 </div>
                             </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-7"><b>21.Pienso en las actividades familiares o personales cuando estoy en mi trabajo .</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>21.Pienso en las actividades familiares o personales cuando estoy en mi trabajo .</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1122,9 +1121,9 @@
                                 </div>
                             </div>
                           
-                            <div class="row show-grid" >
-                                <div class="col-xs-7"><b>22.Pienso que mis responsabilidades familiares afectan mi trabajo .</b></div>
-                                <div class="col-xs-5">
+                            <div class="row show-grid gris" >
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>22.Pienso que mis responsabilidades familiares afectan mi trabajo .</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
@@ -1139,7 +1138,7 @@
                                          </div>
                                          
                                 </div>
-                                <hr class="list-group-item"/>
+                               
                             </div>
 
                         </div>
