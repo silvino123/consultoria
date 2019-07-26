@@ -12,6 +12,7 @@
     <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
 </head>
 
@@ -21,7 +22,24 @@
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
+<div class="row">
+
+     <div class="col-md-3">
+                              
+     <select class="select2_demo_1 form-control">
+     <option value="" selected>Seleccione una Empresa</option>
+     <option value="1">Option 1</option>
+     <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+    <option value="4">Option 4</option>
+    <option value="5">Option 5</option>
+     </select>
+     </div>
+     <div class="col-md-3">
 <a href="Cuestionario.php" class="btn btn-primary">Realizar Encuesta</a>
+</div>
+     </div>
+
 <br>
 <br>
 <div class="row">
@@ -341,7 +359,7 @@
     <!-- Jvectormap -->
     <script src="js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-
+    <script src="js/plugins/select2/select2.full.min.js"></script>
     <!-- EayPIE -->
     <script src="js/plugins/easypiechart/jquery.easypiechart.js"></script>
 
@@ -357,9 +375,10 @@
 
             $('.footable').footable();
             $('.footable2').footable();
-
+           
         });
-
+        $(".select2_demo_1").select2();
+            
     </script>
 </body>
 
