@@ -29,7 +29,9 @@
             display: block; padding: 10px 15px; 
             position: relative
         }
+      
     </style>
+   
 </head>                                                                                                                                                                                                                                                                                                                                                                 
 
 <body>                                                                                                                                                                                                                                                                                                                                                                  
@@ -408,7 +410,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid gris" >
-                                <div class="col-xs-10" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>¿Amenazas?</b><h3></div>
+                                <div class="col-xs-10" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>¿Amenazas? o ¿Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</b><h3></div>
                                 <div class="col-xs-2" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
@@ -418,19 +420,6 @@
                                          
                                 </div>
                             </div>
-
-                            <div class="row show-grid blanco" >
-                                <div class="col-xs-10" style="background-color:#fff;border-color:#fff"><h3><b>¿Cualquier otro que ponga en riesgo su vida o salud, y/o la de otras personas?</b></h3></div>
-                                <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
-                                <div class="row">
-                               <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Si </label> 
-                                   <label class="i-checks">
-                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> No </label>
-                                    </div>
-                                         
-                                </div>
-                            </div>
-
 
                         </div>
                     </div>
@@ -666,12 +655,12 @@
                                 <div class="col-xs-6 col-md-5"><b>Repuestas: Siempre, Casi siempre, Algunas veces, Casi nunca, Nunca</b></div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el tiempo destinado a trabajo y responsabilidades familiares.</b></h3></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Para responder las preguntas siguientes considere las condiciones de su centro de trabajo, así como la cantidad y ritmo de trabajo.</b></h3></div>
                                 <div class="col-xs-6 col-md-2"></div>
                                
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>1.El espacio donde trabajo me permite realizar mis actividades de manera segura e higiéne.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>1.Mi trabajo me exige hacer mucho esfuerzo físico.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -690,7 +679,7 @@
                             </div>
                            
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>2.Mi trabajo me exige hacer mucho esfuerzo físico.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>2.Me preocupa sufrir un accidente en mi trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -708,7 +697,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>3.Me preocupa sufrir un accidente en mi trabajo.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>3.Considero que las actividades que realizo son peligrosas.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -727,7 +716,7 @@
                             </div>
 
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>4.Considero que en mi trabajo se aplican las normas de seguridad y salud en el trabajo.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>4.Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -745,13 +734,85 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>5.Considero que las actividades que realizo son peligrosas.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>5.Por la cantidad de trabajo que tengo debo trabajar sin parar.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
                                         <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
                                         &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>6.Considero que es necesario mantener un ritmo de trabajo acelerado.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>7.Mi trabajo exige que esté muy concentrado.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>8.Mi trabajo requiere que memorice mucha información.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>9.Mi trabajo exige que atienda varios asuntos al mismo tiempo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
                                   
                                          </div>
                                          <div class="row">
@@ -776,12 +837,12 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la cantidad y ritmo de trabajo que tiene.</b></h3></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes están relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.</b></h3></div>
                                 <div class="col-xs-6 col-md-2"></div>
                                
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>6.Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno.</b><h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>10.En mi trabajo soy responsable de cosas de mucho valor.</b><h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -800,7 +861,7 @@
                             </div>
                            
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>7.Por la cantidad de trabajo que tengo debo trabajar sin parar.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>11.Respondo ante mi jefe por los resultados de toda mi área de trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -818,10 +879,28 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>8.Considero que es necesario mantener un ritmo de trabajo acelerado .</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>12.En mi trabajo me dan órdenes contradictorias.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>13.Considero que en mi trabajo me piden hacer cosas innecesarias.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                     &nbsp; &nbsp; &nbsp;<label class="i-checks">
                                         <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
                                         &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
@@ -849,12 +928,12 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con el esfuerzo mental que le exige su trabajo.</b></h3></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes están relacionadas con el tiempo destinado a su trabajo y sus responsabilidades familiares.</b></h3></div>
                               
                                
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>9.Mi trabajo exige que esté muy concentrado.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>14.Trabajo horas extras más de tres veces a la semana.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -873,7 +952,7 @@
                             </div>
                            
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>10.Mi trabajo requiere que memorice mucha información.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>15.Mi trabajo me exige laborar en días de descanso, festivos o fines de semana.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -891,7 +970,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>11.En mi trabajo tengo que tomar decisiones difíciles muy rápido.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>16.Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -909,7 +988,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>12.Mi trabajo exige que atienda varios asuntos al mismo tiempo.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>17.Pienso en las actividades familiares o personales cuando estoy en mi trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -940,11 +1019,11 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con las actividades que realiza en su trabajo y las responsabilidades que tiene.</b></h3></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes están relacionadas con las decisiones que puede tomar en su trabajo.</b></h3></div>
                                
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>13.En mi trabajo soy responsable de cosas de mucho valor.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>18.Mi trabajo permite que desarrolle nuevas habilidades.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -963,7 +1042,7 @@
                             </div>
                            
                             <div class="row show-grid gris">
-                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>14.Respondo ante mi jefe por los resultados de toda mi área de trabajo.</b></h3></div>
+                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>19.En mi trabajo puedo aspirar a un mejor puesto.</b></h3></div>
                                 <div class="col-xs-5"  style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -981,7 +1060,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>15.En el trabajo me dan órdenes contradictorias.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>20.Durante mi jornada de trabajo puedo tomar pausas cuando las necesito.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -999,7 +1078,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid gris">
-                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>16.Considero que en mi trabajo me piden hacer cosas innecesarias.</b></h3></div>
+                                <div class="col-xs-7"  style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>21.Puedo decidir la velocidad a la que realizo mis actividades en mi trabajo.</b></h3></div>
                                 <div class="col-xs-5"  style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1016,7 +1095,24 @@
                                          
                                 </div>
                             </div>
-
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>22.Puedo cambiar el orden de las actividades que realizo en mi trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1030,12 +1126,12 @@
                         <div class="ibox-content">
 
                             <div class="row">
-                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes estan relacionadas con la jornada de trabajo.</b></h3></div>
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes están relacionadas con la capacitación e información que recibe sobre su trabajo..</b></h3></div>
                              
                                
                             </div>
                             <div class="row show-grid blanco" >
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>17.Trabajo horas extras más de tres veces a la semana.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>23.Me informan con claridad cuáles son mis funciones.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1054,7 +1150,7 @@
                             </div>
                            
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>18.Mi trabajo me exige laborar en días de descanso, festivos o fines de semana.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>24.Me explican claramente los resultados que debo obtener en mi trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1072,7 +1168,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>19.Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>25.Me informan con quién puedo resolver problemas o asuntos de trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1090,7 +1186,7 @@
                                 </div>
                             </div>
                             <div class="row show-grid gris">
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>20.Debo atender asuntos de trabajo cuando estoy en casa.</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>26.Me permiten asistir a capacitaciones relacionadas con mi trabajo.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1108,7 +1204,118 @@
                                 </div>
                             </div>
                             <div class="row show-grid blanco">
-                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>21.Pienso en las actividades familiares o personales cuando estoy en mi trabajo .</b><h3></div>
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>27.Recibo capacitación útil para hacer mi trabajo.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                          
+                           
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes se refieren a las relaciones con sus compañeros de trabajo y su jefe.</b></h3></div>
+                             
+                               
+                            </div>
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>28.Mi jefe tiene en cuenta mis puntos de vista y opiniones.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>29.Mi jefe ayuda a solucionar los problemas que se presentan en el trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>30.Puedo confiar en mis compañeros de trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>31.Cuando tenemos que realizar trabajo de equipo los compañeros colaboran.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>32.Mis compañeros de trabajo me ayudan cuando tengo dificultades.</b><h3></div>
                                 <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1127,7 +1334,7 @@
                             </div>
                           
                             <div class="row show-grid gris" >
-                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>22.Pienso que mis responsabilidades familiares afectan mi trabajo .</b></h3></div>
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>33.En mi trabajo puedo expresarme libremente sin interrupciones.</b></h3></div>
                                 <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
                                  <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
@@ -1145,6 +1352,135 @@
                                 </div>
                                
                             </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>34.Recibo críticas constantes a mi persona y/o trabajo.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris" >
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>35.Recibo burlas, calumnias, difamaciones, humillaciones o ridiculizaciones.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                               
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>36.Se ignora mi presencia o se me excluye de las reuniones de trabajo y en la toma de decisiones.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris" >
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>37.Se manipulan las situaciones de trabajo para hacerme parecer un mal trabajador.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                               
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>38.Se ignoran mis éxitos laborales y se atribuyen a otros trabajadores.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid gris" >
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>39.Me bloquean o impiden las oportunidades que tengo para obtener ascenso o mejora en mi trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                               
+                            </div>
+                            <div class="row show-grid blanco">
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>40.He presenciado actos de violencia en mi centro de trabajo.</b><h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -1152,6 +1488,186 @@
 
             </div>
             <!-- final row -->
+            
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+                        
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las preguntas siguientes están relacionadas con la atención a clientes y usuarios.</b></h3></div>
+                             
+                               
+                            </div>
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-10" style="background-color:#fff;border-color:#fff"><h3><b>En mi trabajo debo brindar servicio a clientes o usuarios:</b></h3></div>
+                                <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Si </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">No </label>
+                                        
+                                  
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                            <div id="content1" style="display:none">
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>41.Atiendo clientes o usuarios muy enojados.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>42.Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>43.Para hacer mi trabajo debo demostrar sentimientos distintos a los míos.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+
+                           </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- final row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                       
+                        <div class="ibox-content">
+                        
+                            <div class="row">
+                                <div class="col-xs-6 col-md-10"><h3 class="text-navy"><b>Las siguientes preguntas están relacionadas con las actitudes de los trabajadores que supervisa.</b></h3></div>
+                             
+                               
+                            </div>
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-10" style="background-color:#fff;border-color:#fff"><h3><b>Soy jefe de otros trabajadores:</b></h3></div>
+                                <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label > <input class="i-checks" type="checkbox" value="si" name="check" id="check" >Si </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">No </label>
+                                        
+                                  
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div id="content2" style="display:none;" >
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>44.Comunican tarde los asuntos de trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                           
+                            <div class="row show-grid gris">
+                                <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>45.Dificultan el logro de los resultados del trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
+                                <div class="row">
+                                <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp; &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp; <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            <div class="row show-grid blanco" >
+                                <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><b>46.Ignoran las sugerencias para mejorar su trabajo.</b></h3></div>
+                                <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
+                                <div class="row">
+                                 <label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1"> Siempre </label> 
+                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                        &nbsp;<label class="i-checks"> <input type="checkbox" value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                  
+                                         </div>
+                                         <div class="row">
+                                         <label class="i-checks"> <input type="checkbox" value="option2" id="inlineCheckbox2"> Casi nunca </label>
+                                        &nbsp;<label class="i-checks">
+                                        <input type="checkbox" value="option2" id="inlineCheckbox2"> Nunca </label>
+                                         </div>
+                                         
+                                </div>
+                            </div>
+                            </div>
+
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
               
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                                 <h1>GR III</h1>                                                                                                                                                                                                                                                                                                                                                                 
@@ -1193,7 +1709,7 @@
 
     <!-- Jquery Validate -->                                                                                                                                                                                                                                                                                                                                                                    
     <script src="js/plugins/validate/jquery.validate.min.js"></script>                                                                                                                                                                                                                                                                                                                                                                  
-
+    
 
     <script>                                                                                                                                                                                                                                                                                                                                                                    
         $(document).ready(function(){                                                                                                                                                                                                                                                                                                                                                                   
@@ -1279,39 +1795,34 @@
  <script src="js/plugins/iCheck/icheck.min.js"></script>                                                                                                                                                                                                                                                                                                                                                                    
         <script>                                                                                                                                                                                                                                                                                                                                                                    
             $(document).ready(function () { 
-
+                 
                 $('.i-checks').iCheck({                                                                                                                                                                                                                                                                                                                                                                 
                     checkboxClass: 'icheckbox_square-green',                                                                                                                                                                                                                                                                                                                                                                    
                     radioClass: 'iradio_square-green',  
-                                                                                                                                                                                                                                                                                                                                                         
-                });  
-                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                      
+                }); 
+                 
+                                                                                                                                                                                                                                                                                                                                                             
             });                                                                                                                                                                                                                                                                                                                                                                 
         </script>                                                                                                                                                                                                                                                                                                                                                                   
 <script>
- $(document).ready(function () { 
-
-$('.i-checks').iCheck({                                                                                                                                                                                                                                                                                                                                                                 
-   Sexo();  
-                                                                                                                                                                                                                                                                                                                                         
-});  
-function Sexo(){
-    let Checked = null;
-//The class name can vary
-for (let CheckBox of document.getElementsByClassName('i-checks')){
-	CheckBox.onclick = function(){
-  	if(Checked!=null){
-      Checked.checked = false;
-      Checked = CheckBox;
-    }
-    Checked = CheckBox;
-  }
-}
-}                                                                                                                                                                                                                                                                                                                                                 
-});  
-
-
+    $(document).ready(function() {
+    $("check").click(function(event){
+        var valor = $(event.target).val();
+        if(valor =="si"){
+            $("#content").show();
+            // $("#div2").hide();
+        } 
+        // else if (valor == "Ventanilla") {
+        //     $("#div1").hide();
+        //     $("#div2").show();
+        // } else { 
+        //     // Otra cosa
+        // }
+    });
+});
 </script>
+
 </body>                                                                                                                                                                                                                                                                                                                                                                 
 
 
