@@ -21,7 +21,7 @@
                               <div class="row">
                                <label class="i-checks"> <input type="radio" required name="GQ1" value="option1"  id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                      <input type="radio" required value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                      <input type="radio" required value="option2" id="inlineCheckbox2" name="GQ1">Casi siempre </label>
                                       &nbsp;<label class="i-checks"> <input type="radio" name="GQ1" required value="option1" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
@@ -439,7 +439,7 @@
                               <div class="row">
                                <label class="i-checks"> <input type="radio" required name="GQ21" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp; &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ20" value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                      <input type="radio" required name="GQ21" value="option2" id="inlineCheckbox2">Casi siempre </label>
                                       &nbsp; <label class="i-checks"> <input type="radio" required name="GQ21" value="option1" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
@@ -604,7 +604,7 @@
                                <label class="i-checks"> <input type="radio" required name="GQ28" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
                                       <input type="radio" required name="GQ28" value="option2" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp;<label class="i-checks"> <input type="radio" required value="option1" id="inlineCheckbox1">Algunas veces </label> 
+                                      &nbsp;<label class="i-checks"> <input type="radio" required value="option1" name="GQ28" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
@@ -714,7 +714,7 @@
                               <div class="row">
                                <label class="i-checks"> <input type="radio" required name="GQ34" value="option1" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp; &nbsp;<label class="i-checks">
-                                      <input type="radio" required value="option2" id="inlineCheckbox2">Casi siempre </label>
+                                      <input type="radio" required value="option2" id="inlineCheckbox2" name="GQ34">Casi siempre </label>
                                       &nbsp; <label class="i-checks"> <input type="radio" required name="GQ34" value="option1" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>

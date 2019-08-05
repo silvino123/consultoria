@@ -252,7 +252,7 @@
                                 <div class="col-xs-10" style="background-color:#e7eaec;border-color:#e7eaec"><h3><b>¿Ha estado particularmente irritable o le han dado arranques de coraje?</b></h3></div>
                                 <div class="col-xs-2" style="background-color:#e7eaec;border-color:#e7eaec">
                                 <div class="row">
-                                 <label class="i-checks"> <input type="radio" requiredname="Q17"  value="option1" id="inlineCheckbox1"> Si </label> 
+                                 <label class="i-checks"> <input type="radio" required name="Q17"  value="option1" id="inlineCheckbox1"> Si </label> 
                                    <label class="i-checks">
                                         <input type="radio" required value="option2" name="Q17" id="inlineCheckbox2"> No </label>
                                     </div>
@@ -276,7 +276,7 @@
                                 <div class="row">
                                  <label class="i-checks"> <input type="radio" required name="Q19" value="option1" id="inlineCheckbox1"> Si </label> 
                                    <label class="i-checks">
-                                        <input type="radio" requiredname="Q19" value="option2" id="inlineCheckbox2"> No </label>
+                                        <input type="radio" required name="Q19" value="option2" id="inlineCheckbox2"> No </label>
                                     </div>
                                          
                                 </div>
