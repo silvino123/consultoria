@@ -1,5 +1,6 @@
 <?php 
 //aqui se obtendra la base de datos el numero empleados
+require('conec.php');
 //sera asigando a la variable
 $numero_empleados=55;
 ?>
