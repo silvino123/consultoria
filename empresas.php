@@ -49,7 +49,7 @@
                                     <th>Id</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Giro</th>
-                                 
+                                    <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
