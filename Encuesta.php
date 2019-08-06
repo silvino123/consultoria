@@ -35,7 +35,7 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
 
    while($row = mysqli_fetch_array($rs)){
   
-     echo"<option value=''>". $row['Nombre'] ."</option>";
+     echo"<option value='' required>". $row['Nombre'] ."</option>";
                          
     }
 
@@ -44,7 +44,7 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
      </select>
      </div>
      <div class="col-md-3">
-<a href="Cuestionario.php" class="btn btn-primary">Realizar Encuesta</a>
+     <button type="submit" class="btn btn-primary">Realizar Encuesta</button>
 </div>
      </div>
 
