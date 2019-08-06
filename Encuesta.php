@@ -23,21 +23,30 @@
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
 <div class="row">
-
+     <form method="POST" action="Cuestionario.php">
      <div class="col-md-3">
-                              
+                    
      <select class="select2_demo_1 form-control">
      <option value="" selected>Seleccione una Empresa</option>
-     <option value="1">Option 1</option>
-     <option value="2">Option 2</option>
-    <option value="3">Option 3</option>
-    <option value="4">Option 4</option>
-    <option value="5">Option 5</option>
+     <?php 
+require('conec.php');
+
+$rs = mysqli_query($con, "SELECT * FROM Empresas");
+
+   while($row = mysqli_fetch_array($rs)){
+  
+     echo"<option value='' required>". $row['Nombre'] ."</option>";
+                         
+    }
+
+  mysqli_close($con);
+ ?>      
      </select>
      </div>
      <div class="col-md-3">
-<a href="Cuestionario.php" class="btn btn-primary">Realizar Encuesta</a>
+     <button type="submit" class="btn btn-primary">Realizar Encuesta</button>
 </div>
+<form>
      </div>
 
 <br>

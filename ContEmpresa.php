@@ -9,9 +9,10 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
                           echo "<td>" . $row['id_Empresa'] .  "</td>";  
                           echo "<td>" . $row['Nombre'] .  "</td>";
                           echo "<td> ". $row['Giro'] . "</td>";
+                          echo "<td> ". $row['Empleados'] . "</td>";
                           echo "<td>
                          
-                           <a href='' class='btn btn-info'><i class='fas fa-pencil-alt' title='Editar'></i></a>
+                           <a href='' class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
                           <a onclick='deleteAjax(".$row['id_Empresa'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
                           
                           </td>";
