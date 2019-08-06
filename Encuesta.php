@@ -23,7 +23,7 @@
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
 <div class="row">
-
+     <form method="POST" action="Cuestionario.php">
      <div class="col-md-3">
                     
      <select class="select2_demo_1 form-control">
@@ -46,6 +46,7 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
      <div class="col-md-3">
      <button type="submit" class="btn btn-primary">Realizar Encuesta</button>
 </div>
+<form>
      </div>
 
 <br>
