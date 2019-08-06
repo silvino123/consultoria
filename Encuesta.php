@@ -25,14 +25,22 @@
 <div class="row">
 
      <div class="col-md-3">
-                              
+                    
      <select class="select2_demo_1 form-control">
      <option value="" selected>Seleccione una Empresa</option>
-     <option value="1">Option 1</option>
-     <option value="2">Option 2</option>
-    <option value="3">Option 3</option>
-    <option value="4">Option 4</option>
-    <option value="5">Option 5</option>
+     <?php 
+require('conec.php');
+
+$rs = mysqli_query($con, "SELECT * FROM Empresas");
+
+   while($row = mysqli_fetch_array($rs)){
+  
+     echo"<option value=''>". $row['Nombre'] ."</option>";
+                         
+    }
+
+  mysqli_close($con);
+ ?>      
      </select>
      </div>
      <div class="col-md-3">
