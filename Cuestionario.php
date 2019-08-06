@@ -2,7 +2,7 @@
 //aqui se obtendra la base de datos el numero empleados
 require('conec.php');
 //sera asigando a la variable
-$numero_empleados=55;
+$numero_empleados=40;
 ?>
 <!DOCTYPE html>                                                                                                                                                                                                                                                                                                                                                                 
 <html>                                                                                                                                                                                                                                                                                                                                                                  
@@ -35,7 +35,12 @@ $numero_empleados=55;
             display: block; padding: 10px 15px; 
             position: relative
         }
-      
+        #content1{
+            display: none;
+        }
+        #content2{
+            display: none;
+        }
     </style>
    
 </head>                                                                                                                                                                                                                                                                                                                                                                 

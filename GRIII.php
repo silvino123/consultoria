@@ -1407,9 +1407,9 @@
                                 <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
                                 <div class="row comodiv ">
 
-                            <p  class="comop ">  <input class="w3-radio" onclick="mihola()" type="radio" requiered name="GQIF" value="option1" id="inlineCheckbox1"> <label>Si</label> </p>
+                            <p  class="comop ">  <input class="w3-radio" onclick="display('true','GQIF1')" type="radio" requiered name="GQIF1" value="option1" id="inlineCheckbox1"> <label>Si</label> </p>
                             
-                              <p class="comop "> <input class="w3-radio"  type="radio" requiered name="GQIF" value="option2" id="inlineCheckbox2"> <label>No</label></p>
+                              <p class="comop "> <input class="w3-radio" onclick="display('false','GQIF1')"  type="radio" requiered name="GQIF1" value="option2" id="inlineCheckbox2"> <label>No</label></p>
                                         
                                   
                                          </div>
@@ -1514,13 +1514,14 @@
                             <div class="row show-grid blanco" >
                                 <div class="col-xs-10" style="background-color:#fff;border-color:#fff"><h3><b>Soy jefe de otros trabajadores:</b></h3></div>
                                 <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
-                                <div class="row">
-                                 <label > <input class="i-checks" type="radio" requiered name="GQIF2" value="si" name="check" id="check" >Si </label> 
-                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                        <input type="radio" requiered name="GQIF2" value="option2" id="inlineCheckbox2">No </label>
-                                        
-                                  
-                                         </div>
+                                <div class="row comodiv ">
+
+                                <p  class="comop ">  <input class="w3-radio" onclick="display('true','GQIF2')" type="radio" requiered name="GQIF2" value="option1" id="inlineCheckbox1"> <label>Si</label> </p>
+
+                                <p class="comop "> <input class="w3-radio" onclick="display('false','GQIF2')"  type="radio" requiered name="GQIF2" value="option2" id="inlineCheckbox2"> <label>No</label></p>
+            
+      
+                                    </div>
                                          
                                 </div>
                             </div>
@@ -1607,10 +1608,29 @@
 
             </div>
             <script>
-            function mihola() {
-console.log("hola mundo");
-
-}
+            function display(display,id) {
+           
+           let bol=(display === 'true');
+           if(id==='GQIF1'){
+               if(bol){
+                  document.getElementById("content1").style.display = "block"
+               }
+               else{
+                document.getElementById("content1").style.display = "none"
+               }
+           }
+           if(id==='GQIF2'){
+               if(bol){
+                  document.getElementById("content2").style.display = "block"
+               }
+               else{
+                document.getElementById("content2").style.display = "none"
+               }
+           }
+           else{
+           
+           }
+                                }
             </script>
             <style>
                 .comodiv{
