@@ -1,8 +1,9 @@
 <?php 
 //aqui se obtendra la base de datos el numero empleados
-require('conec.php');
+$nombre=$_POST['empresa'];
 //sera asigando a la variable
-$numero_empleados=40;
+$numero_empleados=60;
+echo $nombre;
 ?>
 <!DOCTYPE html>                                                                                                                                                                                                                                                                                                                                                                 
 <html>                                                                                                                                                                                                                                                                                                                                                                  
@@ -57,7 +58,7 @@ $numero_empleados=40;
                         <div class="ibox-title"> 
                              <div class="row"> 
                              <div class="col-xs-12 col-md-3"><h2><b>Encuesta</b></h2></div>
-                                <div class="col-xs-6 col-md-6"> <h2 class="text-navy"><b>(Nombre de la Empresa)</b></h2></div>                                                                                                                                                                                                                                                                                                                                                                  
+                                <div class="col-xs-6 col-md-6"> <h2 class="text-navy"><b><?php echo $nombre  ?></b></h2></div>                                                                                                                                                                                                                                                                                                                                                                  
                            
                               </div>                                                                                                                                                                                                                                                                                                                                                               
                             <div class="ibox-tools">                                                                                                                                                                                                                                                                                                                                                                    

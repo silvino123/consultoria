@@ -26,7 +26,7 @@
      <form method="POST" action="Cuestionario.php">
      <div class="col-md-3">
                     
-     <select class="select2_demo_1 form-control">
+     <select class="select2_demo_1 form-control" name="empresa" id="empresa">
      <option value="" selected>Seleccione una Empresa</option>
      <?php 
 require('conec.php');
@@ -35,7 +35,7 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
 
    while($row = mysqli_fetch_array($rs)){
   
-     echo"<option value='' required>". $row['Nombre'] ."</option>";
+     echo"<option value=".$row['Nombre'] ." required >". $row['Nombre'] ."</option>";
                          
     }
 
