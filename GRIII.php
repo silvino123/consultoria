@@ -1405,10 +1405,11 @@
                             <div class="row show-grid blanco" >
                                 <div class="col-xs-10" style="background-color:#fff;border-color:#fff"><h3><b>En mi trabajo debo brindar servicio a clientes o usuarios:</b></h3></div>
                                 <div class="col-xs-2" style="background-color:#fff;border-color:#fff">
-                                <div class="row">
-                                 <label class="i-checks"> <input type="radio" requiered name="GQIF" value="option1" id="inlineCheckbox1">Si </label> 
-                                    &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                        <input type="radio" requiered name="GQIF" value="option2" id="inlineCheckbox2">No </label>
+                                <div class="row comodiv ">
+
+                            <p  class="comop ">  <input class="w3-radio" onclick="mihola()" type="radio" requiered name="GQIF" value="option1" id="inlineCheckbox1"> <label>Si</label> </p>
+                            
+                              <p class="comop "> <input class="w3-radio"  type="radio" requiered name="GQIF" value="option2" id="inlineCheckbox2"> <label>No</label></p>
                                         
                                   
                                          </div>
@@ -1605,4 +1606,27 @@
                 </div>
 
             </div>
+            <script>
+            function mihola() {
+console.log("hola mundo");
+
+}
+            </script>
+            <style>
+                .comodiv{
+                    display: flex;
+    flex-wrap: wrap;
+                }
+            .comop{
+                width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+            }
+            .w3-check, .w3-radio {
+    width: 24px;
+    height: 24px;
+   margin-right:1vw;
+    top: -6px; 
+}
+            </style>
             <!-- final row -->
