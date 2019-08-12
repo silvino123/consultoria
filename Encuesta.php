@@ -35,7 +35,7 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
 
    while($row = mysqli_fetch_array($rs)){
   
-     echo"<option value=".$row['Nombre'] ." required >". $row['Nombre'] ."</option>";
+     echo"<option value=".$row['Empleados'] ." required >". $row['Nombre'] ."</option>";
                          
     }
 

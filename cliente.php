@@ -21,6 +21,104 @@
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
+<div class="row">
+                    <div class="col-lg-4">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <span class="label label-success pull-right">Total</span>
+                                <h5>Encuestas Aplicadas</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">40 886,200</h1>
+                                <div class="stat-percent font-bold text-success"> <i class="fas fa-tasks"></i></div>
+                                <small>Total de encuestas</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <span class="label label-info pull-right">Total</span>
+                                <h5>Empleados Encuestados</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">275,800</h1>
+                                <div class="stat-percent font-bold text-info"> <i class="fas fa-building"></i></div>
+                                <small>Total de empleados encuestados</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <span class="label label-danger pull-right">Total</span>
+                                <h5>Empleados Faltantes</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">106,120</h1>
+                                <div class="stat-percent font-bold text-danger"> <i class="fas fa-user"></i></div>
+                                <small>Total de empleados faltantes</small>
+                            </div>
+                        </div>
+                    </div>
+                   
+        </div>
+        <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title text-center">
+                             <h3>Mapa de Riesgos General de la Empresa</h3>
+                               
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row">
+                                <div class="col-lg-12">
+                                  <div class="row">
+                                   
+                                  </div>
+                                
+                                </div>
+                               
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title text-center">
+                             <h3>Informe General de la Empresa</h3>
+                                <div class="pull-right">
+                                    <div class="btn-group">
+                                        <!-- <button type="button" class="btn btn-xs btn-white active">Today</button>
+                                        <button type="button" class="btn btn-xs btn-white">Monthly</button>
+                                        <button type="button" class="btn btn-xs btn-white">Annual</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="row">
+                                <div class="col-lg-12">
+                                
+                                </div>
+                               
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
 
   <?php include 'footer.html'; ?>      
 </div>
