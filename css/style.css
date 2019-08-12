@@ -6853,6 +6853,7 @@ body.landing-page {
 }
 .landing-page .container {
   overflow: hidden;
+  width: 100%;
 }
 .landing-page span.navy {
   color: #1ab394;
@@ -7010,6 +7011,14 @@ body.landing-page {
 .landing-page .header-back.two {
   background: url('../img/landing/consultoria2.jpg') 50% 0 no-repeat;
 }
+div#services{
+  background: url('../img/landing/consultoria2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  min-height: 25vw;
+  opacity: 0.9;
+}
 .landing-page .carousel {
   height: 470px;
 }
@@ -7111,6 +7120,7 @@ body.landing-page {
   text-decoration: none;
   color: inherit;
 }
+
 .landing-page .services {
   padding-top: 60px;
 }
