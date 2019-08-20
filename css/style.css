@@ -2656,6 +2656,48 @@ a.forum-item-title:hover {
 .forum-item.active a.forum-item-title {
   color: #1ab394;
 }
+.icon2 {
+  display: inline-block;
+  margin: -80px 5 70px;
+  width: 130px;
+  height: 130px;
+  background: transparent;
+  font-size: 40px;
+ 
+  line-height: 129px;
+  border: 3px solid #009900;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  transition: all .3s linear;
+}
+
+.icon2:hover {
+  background: #009900;
+  color: #fff;
+}
+
+.servicios {
+  margin: 50px;
+  padding: 0 10px 40px;
+  background: #009900;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+div.servicios p {
+
+
+  color: #fff;
+}
+
+.servicios span {
+  color: #fff;
+}
+div.icon2 h3{
+  color: #fff;
+}
 @media (max-width: 992px) {
   .forum-info {
     margin: 15px 0 10px 0;
@@ -6884,7 +6926,7 @@ body.landing-page {
   width: 60px;
   height: 1px;
   margin: 60px auto 0;
-  border-bottom: 2px solid #1ab394;
+  border-bottom: 2px solid #33691e;
 }
 .landing-page .navbar-wrapper {
   position: fixed;
@@ -6931,7 +6973,7 @@ body.landing-page {
 }
 .landing-page .navbar-default .navbar-nav > li > a:hover,
 .landing-page .navbar-default .navbar-nav > li > a:focus {
-  color: #1ab394;
+  color: #009900;
   background: inherit;
 }
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
@@ -6966,7 +7008,7 @@ body.landing-page {
   color: #676a6c;
 }
 .landing-page .navbar-scroll.navbar-default .nav li a:hover {
-  color: #1ab394;
+  color: #009900;
 }
 .landing-page .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -6986,7 +7028,7 @@ body.landing-page {
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
-  border-top: 6px solid #1ab394;
+  border-top: 6px solid #009900;
 }
 .landing-page .navbar-fixed-top {
   border: none !important;
@@ -7012,12 +7054,34 @@ body.landing-page {
   background: url('../img/landing/consultoria2.jpg') 50% 0 no-repeat;
 }
 div#services{
-  background: url('../img/landing/consultoria2.jpg');
+  background: url('../img/landing/header_one2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
   min-height: 25vw;
-  opacity: 0.9;
+  background-color: #000000;
+    opacity: 0.9;
+  /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+  /* opacity: 0.9; */
+}
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox:hover{
+  background-color: #ffffff;
+}
+div.transbox p {
+ 
+  font-weight: bold;
+  color: #000000;
+}
+div.transbox i {
+  
+  color: #1ab394;
 }
 .landing-page .carousel {
   height: 470px;
@@ -7150,7 +7214,7 @@ div#services{
   font-weight: 200;
 }
 .landing-page .features-icon {
-  color: #1ab394;
+  color: #009900;
   font-size: 40px;
 }
 .landing-page .navy-section {
@@ -7170,7 +7234,7 @@ div#services{
   margin: auto;
 }
 .landing-page .social-icon a {
-  background: #1ab394;
+  background: #009900;
   color: #fff;
   padding: 4px 8px;
   height: 28px;
@@ -7179,7 +7243,7 @@ div#services{
   border-radius: 50px;
 }
 .landing-page .social-icon a:hover {
-  background: #179d82;
+  background: #b1b3b2;
 }
 .landing-page .img-small {
   height: 88px;
@@ -7286,7 +7350,7 @@ div#services{
   color: #fff;
 }
 .landing-page .btn-primary {
-  background-color: #1ab394;
+  background-color: #009900;
   border-color: #1ab394;
   color: #FFFFFF;
   font-size: 14px;
@@ -7298,8 +7362,8 @@ div#services{
 .landing-page .btn-primary:active,
 .landing-page .btn-primary.active,
 .landing-page .open .dropdown-toggle.btn-primary {
-  background-color: #179d82;
-  border-color: #179d82;
+  background-color: #009900;
+  border-color: #009900;
   color: #FFFFFF;
 }
 .landing-page .btn-primary:active,
@@ -8569,4 +8633,19 @@ body.md-skin {
   #page-wrapper {
     margin: 0;
   }
+}
+@media (max-width: 991px){
+  div#services {
+    min-height: 500px;
+}
+}
+@media (max-width: 812px){
+  div#services {
+    min-height: 700px;
+}
+}
+@media (max-width: 723px){
+  div#services {
+    min-height: 700px;
+}
 }
