@@ -2661,11 +2661,11 @@ a.forum-item-title:hover {
   margin: -80px 5 70px;
   width: 130px;
   height: 130px;
-  background: transparent;
+  background: #009900B3;
   font-size: 40px;
  
   line-height: 129px;
-  border: 3px solid #009900;
+  border: 3px  #009900B3;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -2673,8 +2673,8 @@ a.forum-item-title:hover {
 }
 
 .icon2:hover {
-  background: #009900;
-  color: #fff;
+  background: #747474B3;
+  color: #ffffff;
 }
 
 .servicios {
