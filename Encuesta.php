@@ -18,7 +18,7 @@
 
 <body>
 <div id="wrapper">
-<?php include 'Slide-Menu.html'; ?>  
+<?php include 'MenuConsultor.html'; ?>  
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
@@ -332,9 +332,9 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
                     </div>
                 </div>
             </div>
-  <?php include 'footer.html'; ?>      
+       
 </div>
-
+ <?php include 'footer.html'; ?>
 </div>
 </div>
      

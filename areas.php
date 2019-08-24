@@ -18,14 +18,14 @@
 
 <body>
 <div id="wrapper">
-<?php include 'MenuAdmin.html'; ?>  
+<?php include 'Slide-Menu.html'; ?>  
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
 <div class="row">
 
      <div class="col-md-3">
-     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Empresa</button>
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Area</button>
 </div>
      </div>
 
@@ -35,7 +35,7 @@
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
-                            <h3>Empresas Registradas</h3>
+                            <h3>Areas Registradas</h3>
 
                             
                         </div>
@@ -48,15 +48,15 @@
                                 <tr>
                                     <th>Id</th>
                                     <th>Nombre</th>
-                                    <th data-hide="phone,tablet">Giro</th>
-                                    <th data-hide="phone,tablet">Total Empleados</th>
+                                    <th data-hide="phone,tablet">Empresa</th>
+                                    <th data-hide="phone,tablet">Sucursales</th> 
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <?php 
 
-                                require('ContEmpresa.php');
+                                require('ContAreas.php');
                                  ?>
                                 
                                 </tbody>
@@ -79,7 +79,7 @@
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                             <i class="fas fa-building modal-icon"></i>
-                                            <h4 class="modal-title">Registrar nueva empresa</h4>
+                                            <h4 class="modal-title">Registrar nueva Area</h4>
                                            
                                         </div>
                                         <div class="modal-body">
@@ -87,11 +87,19 @@
                             <!-- <form class="form-horizontal"> -->
                             <div class="row">
                             <div class="col-sm-6 b-r">
-                                <form  method="POST" action="RegistrarEmpresa.php">
-                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="Nombre"></div>
-                                    <div class="form-group"><label>Giro</label> <input type="text" placeholder="Giro" class="form-control" id="Giro" name="Giro"></div>
+                                <form  method="POST" action="RegistrarArea.php">
+                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="nombre"></div>
+                                    <div class="form-group"><label>Empresa</label> <select  placeholder="Empresa" class="form-control" id="Empresa" name="Empresa" onchange = "cargar(this.value)" >
+                                    <?php 
+                                        require('ConSelectEmpresa.php');
+                                    ?>
+                                    </select></div>
+                                    <div class='form-group'><label>Sucursal</label> <select type='text' placeholder="Sucursal" class='form-control' id="Sucursal" name="Sucursal">
+                                    
+                          </select></div>
+                                   
                                     <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
-                                    <div class="form-group"><label>Total de empleados</label> <input type="number" placeholder="" class="form-control" id="Empleados" name="Empleados"></div>
+                                    
                                
                             </div>
                             
@@ -165,6 +173,34 @@
   
             
     </script>
+    <script type="text/javascript">
+    function cargar(val){
+        $.ajax({
+        type:'POST', 
+        url:'CargarSelect.php',
+        data:{cargar:val},
+        success: function(resp)
+        {
+            $("#Sucursal").html(resp);
+            // location.href = "areas.php";
+        }
+    });
+    }
+// function cargar(id_Empresa){
+//     $.ajax:({
+//         type:'POST', 
+//         url:'CargarSelect.php',
+//         data:{cargar:id_empresa},
+//         success: function(data)
+//         {
+//             // location.href = "areas.php";
+//         }
+//     });
+//     }
+
+
+// }
+</script>
 </body>
 
 
