@@ -334,10 +334,10 @@ $rs = mysqli_query($con, "SELECT * FROM Empresas");
             </div>
        
 </div>
-
+ <?php include 'footer.html'; ?>
 </div>
 </div>
-  <?php include 'footer.html'; ?>    
+     
 
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
