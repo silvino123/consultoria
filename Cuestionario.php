@@ -42,6 +42,13 @@ $numero_empleados= $_POST['empresa'];
         #content2{
             display: none;
         }
+        .reloj{
+        color: white;
+        background-color: #1AB394;
+        padding: 5px;
+        font-size: 14px;
+        font-family: monospace;
+    }
     </style>
    
 </head>                                                                                                                                                                                                                                                                                                                                                                 
@@ -57,8 +64,22 @@ $numero_empleados= $_POST['empresa'];
                     <div class="ibox">                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="ibox-title"> 
                              <div class="row"> 
-                             <div class="col-xs-12 col-md-3"><h2><b>Encuesta</b></h2></div>
-                                <div class="col-xs-6 col-md-6"> <h2 class="text-navy"><b></b></h2></div>                                                                                                                                                                                                                                                                                                                                                                  
+                             <div class="col-xs-12 col-md-10"><h2><b>Encuesta</b></h2></div>
+                                <div class="col-xs-6 col-md-2"> 
+                                <!-- <button onclick="startWorker()">Start</button> 
+                                <button onclick="stopWorker()">Stop</button> -->
+
+<div id="contenedor" style="display: inline-flex;">
+        <div class="reloj" id="horas">00</div>
+        <div class="reloj">:</div>
+        <div class="reloj" id="minutos">00</div>
+        <div class="reloj">:</div>
+        <div class="reloj" id="segundos">00</div>
+        <!-- <div class="reloj">:</div>
+        <div class="reloj" id="centesimas">00</div> -->
+
+    </div>
+                                </div>                                                                                                                                                                                                                                                                                                                                                                  
                            
                               </div>                                                                                                                                                                                                                                                                                                                                                               
                             <div class="ibox-tools">                                                                                                                                                                                                                                                                                                                                                                    
@@ -123,7 +144,7 @@ $numero_empleados= $_POST['empresa'];
 
     <!-- Jquery Validate -->                                                                                                                                                                                                                                                                                                                                                                    
     <script src="js/plugins/validate/jquery.validate.min.js"></script>                                                                                                                                                                                                                                                                                                                                                                  
-    
+    <script src="js/demo_workers.js"></script> 
 
     <script>                                                                                                                                                                                                                                                                                                                                                                    
         $(document).ready(function(){                                                                                                                                                                                                                                                                                                                                                                   
@@ -220,20 +241,27 @@ $numero_empleados= $_POST['empresa'];
             });                                                                                                                                                                                                                                                                                                                                                                 
         </script>                                                                                                                                                                                                                                                                                                                                                                   
 <script>
+   var w;
+
     $(document).ready(function() {
-    $("check").click(function(event){
-        var valor = $(event.target).val();
-        if(valor =="si"){
-            $("#content").show();
-            // $("#div2").hide();
-        } 
-        // else if (valor == "Ventanilla") {
-        //     $("#div1").hide();
-        //     $("#div2").show();
-        // } else { 
-        //     // Otra cosa
-        // }
-    });
+        if (typeof(Worker) !== "undefined") {
+    if (typeof(w) == "undefined") {
+      w = new Worker("js/demo_workers.js");
+    }
+    w.onmessage = function(event) {
+
+      document.getElementById("horas").innerHTML = event.data.horas;
+       document.getElementById("minutos").innerHTML = event.data.minutos;
+        document.getElementById("segundos").innerHTML = event.data.segundos;
+        //  document.getElementById("centesimas").innerHTML = event.data.centesimas;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry! No Web Worker support.";
+  }
+  function stopWorker() {  
+  w.terminate();
+  w = undefined;
+}
 });
 </script>
 

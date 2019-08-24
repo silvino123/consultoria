@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Inicio</title>
+    <title>Promiss-Empresa</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 
 <body>
 <div id="wrapper">
-<?php include 'Slide-Menu.html'; ?>  
+<?php include 'MenuEmpresa.html'; ?>  
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
@@ -64,68 +64,53 @@
                    
         </div>
         <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title text-center">
-                             <h3>Mapa de Riesgos General de la Empresa</h3>
+                    <div class="col-lg-12" >
+                        <div class="ibox float-e-margins" >
+                            <div class="ibox-title text-center" >
+                             <h3 class="text-navy">Informe General</h3>
                                
                             </div>
-                            <div class="ibox-content">
-                                <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="row">
-                                   
-                                  </div>
-                                
-                                </div>
-                               
-                                </div>
-                                </div>
+                            <div class="ibox-content" >
+              
+                            <?php include 'informeGeneral.php'; ?>  
+                            
+                            </div>
 
+                                  
                             </div>
                         </div>
                     </div>
-
+                  <!-- final row informe -->
                     <div class="row">
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title text-center">
-                             <h3>Informe General de la Empresa</h3>
-                                <div class="pull-right">
-                                    <div class="btn-group">
-                                        <!-- <button type="button" class="btn btn-xs btn-white active">Today</button>
-                                        <button type="button" class="btn btn-xs btn-white">Monthly</button>
-                                        <button type="button" class="btn btn-xs btn-white">Annual</button> -->
-                                    </div>
-                                </div>
+                             <h3>Mapa de Riesgos General</h3>
+                                
                             </div>
                             <div class="ibox-content">
-                                <div class="row">
-                                <div class="col-lg-12">
-                                
-                                </div>
-                               
-                                </div>
-                                </div>
+                            <?php include 'mapaRiesgos.php'; ?>
+                            <br>
+                            <div class="row">
+                            <div class="col-lg-6">
+                            <?php include 'pruebasAreas.php'; ?>
+                            </div>
+                            </div>
+                            <!-- final row div -->
+                             </div>
 
                             </div>
                         </div>
                     </div>
+                    <!-- final row mapa de riesgos -->
 
 
-
-
-
-
-
-
-
-  <?php include 'footer.html'; ?>      
+      
 </div>
 
 </div>
 </div>
-     
+  <?php include 'footer.html'; ?>     
 
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
