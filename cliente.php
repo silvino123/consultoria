@@ -105,12 +105,12 @@
                     <!-- final row mapa de riesgos -->
 
 
-  <?php include 'footer.html'; ?>      
+      
 </div>
 
 </div>
 </div>
-     
+  <?php include 'footer.html'; ?>     
 
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
