@@ -18,7 +18,7 @@
 
 <body>
 <div id="wrapper">
-<?php include 'MenuAdmin.html'; ?>  
+<?php include 'MenuConsultor.html'; ?>  
 <div id="page-wrapper" class="gray-bg">  
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
