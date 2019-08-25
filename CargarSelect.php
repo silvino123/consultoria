@@ -3,7 +3,7 @@ require('conec.php');
 
 $id =$_POST['cargar'];
 
-$rs = mysqli_query($con, "SELECT snombre FROM sucursales where empresa = '$id'");
+$rs = mysqli_query($con, "SELECT * FROM sucursales where empresa = '$id'");
 
 
 

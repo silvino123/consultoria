@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Encuestas</title>
+    <title>Sucursales</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
-                            <h3>Areas Registradas</h3>
+                            <h3>Sucursales Registradas</h3>
 
                             
                         </div>
@@ -46,17 +46,16 @@
                             <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
                                 <thead>
                                 <tr>
-                                    <th>Id</th>
+                                    <th>Clave</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
-                                    <th data-hide="phone,tablet">Sucursales</th> 
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <?php 
 
-                                require('ContAreas.php');
+                                require('ConSucursales.php');
                                  ?>
                                 
                                 </tbody>
@@ -87,17 +86,14 @@
                             <!-- <form class="form-horizontal"> -->
                             <div class="row">
                             <div class="col-sm-6 b-r">
-                                <form  method="POST" action="RegistrarArea.php">
+                                <form  method="POST" action="RegistrarSucursal.php">
                                     <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="nombre"></div>
-                                    <div class="form-group"><label>Empresa</label> <select  placeholder="Empresa" class="form-control" id="Empresa" name="Empresa" onchange = "cargar(this.value)" >
+                                    <div class="form-group"><label>Empresa</label> <select  placeholder="Empresa" class="form-control" id="Empresa" name="Empresa" >
                                     <?php 
                                         require('ConSelectEmpresa.php');
                                     ?>
-                                    </select></div>
-                                    <div class='form-group'><label>Sucursal</label> <select type='text' placeholder="Sucursal" class='form-control' id="Sucursal" name="Sucursal">
                                     
-                          </select></div>
-                                   
+                                    </select>
                                     <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
                                     
                                

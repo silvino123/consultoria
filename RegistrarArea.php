@@ -3,7 +3,7 @@
 require('conec.php');
 
 $nombre=$_POST['nombre'];
-$sucursal=$_POST['sucursal'];
+$sucursal=$_POST['Sucursal'];
 
 	$insert= "INSERT INTO areas (id_Area,anombre,sucursales) 
 				  values ('','$nombre','$sucursal')";
