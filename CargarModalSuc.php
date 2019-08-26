@@ -6,22 +6,22 @@ if($_POST['rowid']) {
     $id = $_POST['rowid']; 
     
 
-$rs = mysqli_query($con, "SELECT * FROM sucursales where id_sucursal =$id");
+$rs = mysqli_query($con, "SELECT * FROM sucursales where id_sucursal ='$id'");
     $row = mysqli_fetch_array($rs);
-    $id=$_POST['id_sucursal'];
+    $id=$row['id_sucursal'];
 
-$nombre=$_POST['Nombre'];
-$empresa=$_POST['Empresa'];
-$giro=$_POST['Giro'];
-$correo=$_POST['Correo'];
-$rfc=$_POST['RFC'];
-$calle=$_POST['Calle'];
-$Numero=$_POST['Numero'];
-$colonia=$_POST['Colonia'];
-$cp=$_POST['Cp'];
-$telefono=$_POST['Telefono'];
-$estado=$_POST['estado'];
-$ciudad=$_POST['Ciudad'];
+$nombre=$row['snombre'];
+$empresa=$row['empresa'];
+$giro=$row['giro'];
+$correo=$row['correo'];
+$rfc=$row['rfc'];
+$calle=$row['direccion'];
+$Numero=$row['ndireccion'];
+$colonia=$row['Colonia'];
+$cp=$row['cp'];
+$telefono=$row['telefono'];
+$estado=$row['estado'];
+$ciudad=$row['ciudad'];
     // Fetch Records
     // Echo the data you want to show in modal
 

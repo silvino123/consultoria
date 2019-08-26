@@ -27,7 +27,7 @@
 <div class="row">
 
      <div class="col-md-3">
-     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Area</button>
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Sucursal</button>
      <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Area</button> -->
 </div>
      </div>
@@ -85,13 +85,41 @@
                 </div>
             </div>
             <!-- modal -->
+
+            <div class="modal fade" id="Sucursales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+       <br>
+          <br>
+         
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <h5 class="modal-title" id="exampleModalLabel">Editar Sucursal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form class="form-horizontal" method="post" action="EditarSucursales.php">
+                <div class="fetched-data"></div> 
+       
+      
+      <div class="modal-footer">
+     
+        <button type="submit" class="btn btn-secondary">Editar</button>
+      </div>
+       </form>
+       </div>
+    </div>
+  </div>
+</div>
             <div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog"  aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content animated fadeIn">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                             <i class="fas fa-building modal-icon"></i>
-                                            <h4 class="modal-title">Registrar nueva Area</h4>
+                                            <h4 class="modal-title">Registrar Nueva Sucursal</h4>
                                            
                                         </div>
                                         <div class="modal-body">
@@ -148,33 +176,7 @@
 
 </div>
 </div>
-<div class="modal fade" id="Sucursales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-       <br>
-          <br>
-         
-    <div class="modal-content">
-      <div class="modal-header">
-         
-        <h5 class="modal-title" id="exampleModalLabel">Editar Usuarios</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <form class="form-horizontal" method="post" action="EditarSucursales.php">
-                <div class="fetched-data"></div> 
-       
-      
-      <div class="modal-footer">
-     
-        <button type="submit" class="btn btn-secondary">Editar</button>
-      </div>
-       </form>
-       </div>
-    </div>
-  </div>
-</div>
+
 <script src="js/active.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>
     <script src="js/alertifyjs/alertify.min.js"></script>
@@ -261,11 +263,11 @@
     $(document).ready(function(){
     $('#Sucursales').on('show.bs.modal', function (e) {
 
-        var rowid = $(e.relatedTarget).data('id_sucursal');
+        var rowid = $(e.relatedTarget).data('id');
         
         $.ajax({
             type : 'post',
-            url : 'CargaModalSuc.php', 
+            url : 'CargarModalSuc.php', 
             data :  'rowid='+ rowid, //Pass $id
             success : function(data){
               

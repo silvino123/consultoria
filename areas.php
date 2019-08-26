@@ -75,6 +75,35 @@
                 </div>
             </div>
             <!-- modal -->
+
+
+            <div class="modal fade" id="Areas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+       <br>
+          <br>
+         
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <h5 class="modal-title" id="exampleModalLabel">Editar Sucursal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form class="form-horizontal" method="post" action="EditarSucursales.php">
+                <div class="fetched-data"></div> 
+       
+      
+      <div class="modal-footer">
+     
+        <button type="submit" class="btn btn-secondary">Editar</button>
+      </div>
+       </form>
+       </div>
+    </div>
+  </div>
+</div>
             <div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog"  aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content animated fadeIn">
@@ -205,6 +234,27 @@
 
 
 // }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('#Areas').on('show.bs.modal', function (e) {
+
+        var rowid = $(e.relatedTarget).data('id');
+        
+        $.ajax({
+            type : 'post',
+            url : 'CargarModalArea.php', 
+            data :  'rowid='+ rowid, //Pass $id
+            success : function(data){
+              
+              $('.fetched-data').html(data);
+
+          
+            }
+        });
+     });
+});
 </script>
 </body>
 
