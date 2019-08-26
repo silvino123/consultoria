@@ -1,7 +1,8 @@
 <?php 
 require('conec.php');
 
-$rs = mysqli_query($con, "SELECT * FROM usuarios");
+$rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal");
+
 
                        while($row = mysqli_fetch_array($rs)){
 
@@ -9,8 +10,8 @@ $rs = mysqli_query($con, "SELECT * FROM usuarios");
                           echo "<td>" . $row['id_usuario'] .  "</td>";  
                           echo "<td>" . $row['nombre'] .  "</td>";
                           echo "<td> ". $row['correo'] . "</td>";
-                          echo "<td> ". $row['contraseña'] . "</td>";
-                          echo "<td> ". $row['id_sucursal'] . "</td>";
+                          echo "<td> ". $row['password'] . "</td>";
+                          echo "<td> ". $row['snombre'] . "</td>";
                           echo "<td> ". $row['tipo'] . "</td>";
                           echo "<td>
                          
