@@ -52,6 +52,7 @@
                                     <th data-hide="phone,tablet">Contraseña</th>
                                     <th data-hide="phone,tablet">Sucursal</th>
                                     <th data-hide="phone,tablet">Tipo</th>
+                                    <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -88,8 +89,8 @@
                                                 <div class="col-lg-12 b-r">
                                                     
                                                         <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="nombre" name="nombre" required=""></div>
-                                                        <div class="form-group"><label>Correo</label> <input type="mail" placeholder="Correo" class="form-control" id="correo" name="correo" required=""></div>
-                                                        <div class="form-group"><label>Contraseña</label> <input type="password" placeholder="Correo" class="form-control" id="contraseña" name="contraseña" required=""></div>
+                                                        <div class="form-group"><label>Correo</label> <input type="email" placeholder="Correo" class="form-control" id="correo" name="correo" required=""></div>
+                                                        <div class="form-group"><label>Contraseña</label> <input type="password" placeholder="Correo" class="form-control" id="password" name="password" required=""></div>
                                                         <div class="form-group">
                                                             <label>Tipo de Usuario</label>
                                                             <select class="form-control" id="tipo" name="tipo" required="">
@@ -97,9 +98,14 @@
                                                                 <option value="Consultor">Consultor</option>
                                                                 <option value="Empresa">Empresa</option>
                                                             </select>
+                                                        </div>                                                                                                                
+                                                        <div class="form-group"><label>Sucursal</label> 
+                                                            <select  placeholder="" class="form-control" id="id_sucursal" name="id_sucursal" required="">
+                                                                <?php 
+                                                                    require('ConSelectSucursal.php');
+                                                                ?>
+                                                            </select>
                                                         </div>
-                                                        
-                                                        <div class="form-group"><label>Sucursal</label> <input type="number" placeholder="" id="sucursal" name="sucursal" required="" class="form-control"></div>                                                
                                                 </div>    
                                             </div>
                                         </div>

@@ -30,12 +30,14 @@
             <h3>Bienvenido</h3>
             
          
-            <form class="m-t" role="form" action="admin.php">
+            <!--<form class="m-t" role="form" action="admin.php">-->
+            <form class="m-t" role="form" action="validarUsuario.php">
+
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Usuario" required="">
+                    <input type="email" id="correo" name="correo" class="form-control" placeholder="Usuario" required="">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Contraseña" required="">
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Contraseña" required="">
                 </div>
                 <button type="submit" class="btn btn-primary block full-width m-b" style="background-color: #009900">Ingresar</button>
 
@@ -47,6 +49,23 @@
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Jquery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>    
+
+    <script language='JavaScript'>
+            function Sesion(){
+                   alertify
+                  .alert('Sesion iniciada', function(){
+                     alertify.message('OK');
+                     });
+            }
+    </script>
 
 </body>
 
