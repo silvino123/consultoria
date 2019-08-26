@@ -13,6 +13,8 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
 </head>
 
@@ -173,7 +175,10 @@
     </div>
   </div>
 </div>
-
+<script src="js/active.js"></script>
+<script src="js/alertifyjs/alertify.js"></script>
+    <script src="js/alertifyjs/alertify.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

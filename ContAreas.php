@@ -25,3 +25,30 @@ $rs = mysqli_query($con, "SELECT A.id_Area, A.anombre, S.snombre, E.Nombre from 
 
  ?>
 
+<script type="text/javascript">
+   
+   function deleteAjax(id_Area) {
+    
+    
+     if (alertify.confirm('¿Esta seguro de que desea eliminar esta area?','El elemento se eliminara permanentemente', function(){
+       //alertify.success('Pastel Elininado'),
+       $.ajax({
+           type: 'post',
+           url: 'EliminarArea.php',
+           data:{delete_id:id_Area},
+           success:function(data){
+             
+           location.href ="areas.php";
+           }
+       });
+      },
+      function(){alertify.error('Operacion Cancelada')})) {
+ 
+ 
+     }
+  
+   }
+ 
+  </script>
+
+

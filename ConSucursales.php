@@ -21,7 +21,7 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
                           echo "<td> ". $row['telefono'] . "</td>";
                           echo "<td>
                          
-                           <button class='btn btn-success' data-toggle='modal' data-target="."#Sucursales". "data-id=".$row['id_sucursal']."><i class='fas fa-pencil-alt' title='Editar' ></i></button> 
+                           <a class='btn btn-success' data-toggle='modal' data-target="."#Sucursales". "data-id=".$row['id_sucursal']."><i class='fas fa-pencil-alt' title='Editar' ></i></a> 
                           <a onclick='deleteAjax(".$row['id_sucursal'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
                           
                           </td>";
@@ -33,4 +33,29 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
 
 
  ?>
+ <script type="text/javascript">
+   
+   function deleteAjax(id_sucursal) {
+    
+    
+     if (alertify.confirm('¿Esta seguro de que desea eliminar esta sucursal?','El elemento se eliminara permanentemente', function(){
+       //alertify.success('Pastel Elininado'),
+       $.ajax({
+           type: 'post',
+           url: 'EliminarSucursal.php',
+           data:{delete_id:id_sucursal},
+           success:function(data){
+             
+           location.href ="Sucursales.php";
+           }
+       });
+      },
+      function(){alertify.error('Operacion Cancelada')})) {
+ 
+ 
+     }
+  
+   }
+ 
+  </script>
 
