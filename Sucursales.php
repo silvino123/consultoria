@@ -26,13 +26,14 @@
 
      <div class="col-md-3">
      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Area</button>
+     <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Agregar Area</button> -->
 </div>
      </div>
 
 <br>
 <br>
-<div class="row">
-                <div class="col-lg-12">
+<div class="row" >
+                <div class="col-lg-12" style="overflow: auto">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
                             <h3>Sucursales Registradas</h3>
@@ -49,6 +50,16 @@
                                     <th>Clave</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
+                                    <th data-hide="phone,tablet">Giro</th>
+                                    <th data-hide="phone,tablet">RFC</th>
+                                    <th data-hide="phone,tablet">Calle</th>
+                                    <th data-hide="phone,tablet">Numero</th>
+                                    <th data-hide="phone,tablet">Colonia</th>
+                                    <th data-hide="phone,tablet">Estado</th>
+                                    <th data-hide="phone,tablet">Ciudad</th>
+                                    <th data-hide="phone,tablet">CP</th>
+                                    <th data-hide="phone,tablet">Correo</th>
+                                    <th data-hide="phone,tablet">Telefono</th>
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
@@ -87,37 +98,81 @@
                             <div class="row">
                             <div class="col-sm-6 b-r">
                                 <form  method="POST" action="RegistrarSucursal.php">
-                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="nombre"></div>
+                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="Nombre"></div>
                                     <div class="form-group"><label>Empresa</label> <select  placeholder="Empresa" class="form-control" id="Empresa" name="Empresa" >
                                     <?php 
                                         require('ConSelectEmpresa.php');
                                     ?>
                                     
                                     </select>
+                                    <div class="form-group"><label>RFC</label> <input type="text" placeholder="RFC" class="form-control" id="RFC" name="RFC"></div>
+                                    <div class="form-group"><label>Calle</label> <input  placeholder="Calle" class="form-control" id="Calle" name="Calle" >
+                                    <div class="form-group"><label>Numero</label> <input type="text" placeholder="Numero" class="form-control" id="Numero" name="numero"></div>
+                                   
+                                   
                                     <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
                                     
                                
                             </div>
+                           
+                            
                             
                         </div>
-                          
+                        
                        
                                         </div>
-                                        <div class="modal-footer">
-                                            
-                                            <button type="submit" class="btn btn-primary">Registrar</button>
+                                        <div class="col-sm-6 b-r">
+                                        <div class="form-group"><label>Colonia</label> <input  placeholder="Colonia" class="form-control" id="Colonia" name="Colonia" >
+                                    <div class="form-group"><label>Codigo Postal</label> <input type="text" placeholder="Codigo Postal" class="form-control" id="Cp" name="Cp"></div>
+                                    <div class="form-group"><label>Correo</label> <input  placeholder="Correo" class="form-control" id="Correo" name="Correo" >
+                                    <div class="form-group"><label>Telefono</label> <input  placeholder="Telefono" class="form-control" id="Telefono" name="Telefono" >
+                                    <div class="form-group"><label>Telefono</label> <input  placeholder="Giro" class="form-control" id="Giro" name="Giro" >
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Registrar</button>
                                         </div>
                                         <!-- </form> -->
-                                          </form>
+                                       
+                                          </form>    
                                     </div>
+                                   
                                 </div>
+                                
                             </div>
-  <?php include 'footer.html'; ?>      
+  <?php include 'footer.html'; ?>  
+  <div class="modal-footer">
+                                            
+                                         
 </div>
 
 </div>
 </div>
+<div class="modal fade" id="Sucursales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+       <br>
+          <br>
+         
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <h5 class="modal-title" id="exampleModalLabel">Editar Usuarios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form class="form-horizontal" method="post" action="EditarSucursales.php">
+                <div class="fetched-data"></div> 
+       
+      
+      <div class="modal-footer">
      
+        <button type="submit" class="btn btn-secondary">Editar</button>
+      </div>
+       </form>
+       </div>
+    </div>
+  </div>
+</div>
 
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
@@ -197,6 +252,28 @@
 
 // }
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('#Sucursales').on('show.bs.modal', function (e) {
+
+        var rowid = $(e.relatedTarget).data('id_sucursal');
+        
+        $.ajax({
+            type : 'post',
+            url : 'CargaModalSuc.php', 
+            data :  'rowid='+ rowid, //Pass $id
+            success : function(data){
+              
+              $('.fetched-data').html(data);
+
+          
+            }
+        });
+     });
+});
+</script>
+
+
 </body>
 
 
