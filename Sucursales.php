@@ -45,7 +45,7 @@
                         <div class="ibox-content">
                         <input type="text" class="form-control input-sm m-b-xs" id="filter"
                                    placeholder="Buscar...">
-
+                            <div class="table-responsive">
                             <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
                                 <thead>
                                 <tr>
@@ -80,6 +80,7 @@
                                 </tr>
                                 </tfoot>
                             </table>
+                            </div>
                         </div>
                     </div>
                 </div>
