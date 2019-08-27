@@ -12,7 +12,7 @@ $rs = mysqli_query($con, "SELECT A.id_Area, A.anombre, S.snombre, E.Nombre from 
                           echo "<td> ". $row['snombre'] . "</td>";
                           echo "<td>
                          
-                           <a data-toggle='modal' data-target='#Areas' class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
+                           <a data-toggle='modal' data-target='#Areas' data-id=".$row['id_Area']." class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
                           <a onclick='deleteAjax(".$row['id_Area'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
                           
                           </td>";

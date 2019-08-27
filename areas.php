@@ -91,7 +91,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <form class="form-horizontal" method="post" action="EditarSucursales.php">
+      <form class="form-horizontal" method="post" action="EditarAreas.php">
                 <div class="fetched-data"></div> 
        
       
@@ -110,7 +110,7 @@
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                             <i class="fas fa-building modal-icon"></i>
-                                            <h4 class="modal-title">Registrar nueva Area</h4>
+                                            <h4 class="modal-title">Registrar Nueva Area</h4>
                                            
                                         </div>
                                         <div class="modal-body">

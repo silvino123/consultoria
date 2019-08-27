@@ -22,6 +22,7 @@ $cp=$row['cp'];
 $telefono=$row['telefono'];
 $estado=$row['estado'];
 $ciudad=$row['ciudad'];
+$nempleados=$row['nempleados'];
     // Fetch Records
     // Echo the data you want to show in modal
 
@@ -36,49 +37,53 @@ $ciudad=$row['ciudad'];
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Empresa</label>
-        <input type='text' class='form-control'  id='Correo' name='Empresa' required='' value='".$empresa."'>
+        <input type='text' class='form-control'  id='Empresa' name='Empresa' required='' value='".$empresa."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Giro</label>
-        <input type='text' class='form-control'  id='Correo' name='Giro' required='' value='".$giro."'>
+        <input type='text' class='form-control'  id='Giro' name='Giro' required='' value='".$giro."'>
     </div>
+    <div class='col-12 col-lg-6'>
+    <label for='sel1'>Numero de Empleados</label>
+    <input type='text' class='form-control'  id='NEmpleados' name='NEmpleados' required='' value='".$nempleados."'>
+</div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Correo</label>
         <input type='email' class='form-control'  id='Correo' name='Correo' required='' value='".$correo."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>RFC</label>
-        <input type='text' class='form-control'  id='Correo' name='RFC' required='' value='".$rfc."'>
+        <input type='text' class='form-control'  id='RFC' name='RFC' required='' value='".$rfc."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Calle</label>
-        <input type='text' class='form-control'  id='Correo' name='Calle' required='' value='".$calle."'>
+        <input type='text' class='form-control'  id='Calle' name='Calle' required='' value='".$calle."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Numero</label>
-        <input type='text' class='form-control'  id='Correo' name='Numero' required='' value='".$Numero."'>
+        <input type='text' class='form-control'  id='Numero' name='Numero' required='' value='".$Numero."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Colonia</label>
-        <input type='text' class='form-control'  id='Correo' name='Colonia' required='' value='".$colonia."'>
+        <input type='text' class='form-control'  id='Colonia' name='Colonia' required='' value='".$colonia."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Estado</label>
-        <input type='text' class='form-control'  id='Correo' name='Estado' required='' value='".$estado."'>
+        <input type='text' class='form-control'  id='Estado' name='Estado' required='' value='".$estado."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Ciudad</label>
-        <input type='text' class='form-control'  id='Correo' name='Ciudad' required='' value='".$ciudad."'>
+        <input type='text' class='form-control'  id='Ciudad' name='Ciudad' required='' value='".$ciudad."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Codigo Postal</label>
-        <input type='text' class='form-control'  id='Correo' name='Cp' required='' value='".$cp."'>
+        <input type='text' class='form-control'  id='Cp' name='Cp' required='' value='".$cp."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Telefono</label>
-        <input type='text' class='form-control'  id='Correo' name='Telefono' required='' value='".$telefono."'>
+        <input type='text' class='form-control'  id='Telefono' name='Telefono' required='' value='".$telefono."'>
     </div>
-
+    
     
     
     </div>

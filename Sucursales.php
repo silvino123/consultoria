@@ -45,7 +45,7 @@
                         <div class="ibox-content">
                         <input type="text" class="form-control input-sm m-b-xs" id="filter"
                                    placeholder="Buscar...">
-                            <div class="table-responsive">
+
                             <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
                                 <thead>
                                 <tr>
@@ -53,6 +53,7 @@
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
                                     <th data-hide="phone,tablet">Giro</th>
+                                    <th data-hide="phone,tablet">Numero de Empleados</th>
                                     <th data-hide="phone,tablet">RFC</th>
                                     <th data-hide="phone,tablet">Calle</th>
                                     <th data-hide="phone,tablet">Numero</th>
@@ -80,7 +81,6 @@
                                 </tr>
                                 </tfoot>
                             </table>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,6 +136,7 @@
                                     ?>
                                     
                                     </select>
+                                    <div class="form-group"><label>RFC</label> <input type="text" placeholder="NEmpleados" class="form-control" id="NEmpleados" name="NEmpleados"></div>
                                     <div class="form-group"><label>RFC</label> <input type="text" placeholder="RFC" class="form-control" id="RFC" name="RFC"></div>
                                     <div class="form-group"><label>Calle</label> <input  placeholder="Calle" class="form-control" id="Calle" name="Calle" >
                                     <div class="form-group"><label>Numero</label> <input type="text" placeholder="Numero" class="form-control" id="Numero" name="numero"></div>
@@ -157,7 +158,7 @@
                                     <div class="form-group"><label>Codigo Postal</label> <input type="text" placeholder="Codigo Postal" class="form-control" id="Cp" name="Cp"></div>
                                     <div class="form-group"><label>Correo</label> <input  placeholder="Correo" class="form-control" id="Correo" name="Correo" >
                                     <div class="form-group"><label>Telefono</label> <input  placeholder="Telefono" class="form-control" id="Telefono" name="Telefono" >
-                                    <div class="form-group"><label>Telefono</label> <input  placeholder="Giro" class="form-control" id="Giro" name="Giro" >
+                                    <div class="form-group"><label>Giro</label> <input  placeholder="Giro" class="form-control" id="Giro" name="Giro" >
                                     </div>
                                     <button type="submit" class="btn btn-primary">Registrar</button>
                                         </div>

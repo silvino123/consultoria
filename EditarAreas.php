@@ -8,7 +8,7 @@ $sucursal=$_POST['Sucursal'];
 
 
 
-$qss ="UPDATE areas set anombre='$nombre',sucursal = '$sucursal' WHERE id_Area='$id'"; 
+$qss ="UPDATE areas set anombre='$nombre' WHERE id_Area='$id'"; 
 
 $ejecuta_qss= mysqli_query($con,$qss) or die("error al actualizar datos");
 
