@@ -14,6 +14,9 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+
 </head>
 
 <body>
@@ -73,6 +76,34 @@
                 </div>
             </div>
             <!-- modal -->
+               <!-- modal -->
+
+              
+            <!-- Modal Editar -->
+            <div class="modal fade" id="usuarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <br><br>
+                        
+                    <div class="modal-content">
+                        <div class="modal-header">                            
+                            <h5 class="modal-title" id="exampleModalLabel">Editar Usuario</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal" method="post" action="EditarUsuarios.php">
+                                <div class="fetched-data"></div> 
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-secondary">Editar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Registra Usuario -->
             <div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog"  aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content animated fadeIn">
@@ -123,6 +154,11 @@
 </div>
      
 
+    <script src="js/active.js"></script>
+    <script src="js/alertifyjs/alertify.js"></script>
+    <script src="js/alertifyjs/alertify.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -161,17 +197,38 @@
 
     <!-- Sparkline demo data  -->
     <script src="js/demo/sparkline-demo.js"></script>
- <!-- FooTable -->
- <script src="js/plugins/footable/footable.all.min.js"></script>
- <script>
-        $(document).ready(function() {
+    <!-- FooTable -->
+    <script src="js/plugins/footable/footable.all.min.js"></script>
+    <script>
+            $(document).ready(function() {
 
-            $('.footable').footable();
-            $('.footable2').footable();
-           
-        });
-  
+                $('.footable').footable();
+                $('.footable2').footable();
             
+            });
+    
+                
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#usuarios').on('show.bs.modal', function (e) {
+
+                var rowid = $(e.relatedTarget).data('id_usuario');
+                
+                $.ajax({
+                    type : 'post',
+                    url : 'CargarmodalUsuario.php', 
+                    data :  'rowid='+ rowid, //Pass $id
+                    success : function(data){
+                    
+                    $('.fetched-data').html(data);
+
+                
+                    }
+                });
+            });
+        });
     </script>
 </body>
 
