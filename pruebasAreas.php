@@ -12,24 +12,24 @@
                               
                               </tr>
                               <tr>
-                              <td class="text-center"><b>Area 1<b></td>
-                              <td class="text-center" style="color:#000000"><b>53<b></td>
+                              <td class="text-center"><b><b></td>
+                              <td class="text-center" style="color:#000000"><b><b></td>
                               </tr>
                               <tr>
-                              <td class="text-center"><b>Area 2<b></td>
-                              <td class="text-center" style="color:#000000"><b>30<b></td>
+                              <td class="text-center"><b><b></td>
+                              <td class="text-center" style="color:#000000"><b><b></td>
                               </tr>
                               <tr>
-                              <td class="text-center"><b>Area 3<b></td>
-                              <td class="text-center" style="color:#000000"><b>15<b></td>
+                              <td class="text-center"><b><b></td>
+                              <td class="text-center" style="color:#000000"><b><b></td>
                               </tr>
                               <tr>
-                              <td class="text-center"><b>Area 4<b></td>
-                              <td class="text-center" style="color:#000000"><b>20<b></td>
+                              <td class="text-center"><b><b></td>
+                              <td class="text-center" style="color:#000000"><b><b></td>
                               </tr>
                               <tr>
                               <td class="text-center"  style="background-color:#1c84c6;color:#fff"><b>Total<b></td>
-                              <td class="text-center" style="background-color:#18a689;color:#fff"><b>160<b></td>
+                              <td class="text-center" style="background-color:#18a689;color:#fff"><b><b></td>
                               </tr>
                               <tr>
                               
