@@ -5,6 +5,7 @@ $correo = $_POST['correo'];
 $password = $_POST['password'];
 
 $rs  = "SELECT * FROM usuarios WHERE correo = '$correo' AND password = '$password'";
+
 $qs = mysqli_query($con, $rs);
 $row    = mysqli_fetch_assoc($qs);
 // if (!isset($row)) {
@@ -50,8 +51,6 @@ $row    = mysqli_fetch_assoc($qs);
         
         
     }
-
-
 
 ?>
  <!-- <script language='JavaScript'>

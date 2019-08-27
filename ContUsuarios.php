@@ -15,9 +15,10 @@ $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u
                           echo "<td> ". $row['tipo'] . "</td>";
                           echo "<td>
                          
-                           <a href='' class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
+
+                          <a data-toggle='modal' data-target='#usuarios' class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
                           <a onclick='deleteAjax(".$row['id_usuario'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
-                          
+                                                  
                           </td>";
                           echo "</tr>";   
 
@@ -29,4 +30,28 @@ $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u
  ?>
 
 
+<script type="text/javascript">
+   
+   function deleteAjax(id_usuario) {
+    
+    
+     if (alertify.confirm('¿Esta seguro de que desea eliminar este usuario?','El elemento se eliminara permanentemente', function(){
+       //alertify.success('Pastel Elininado'),
+       $.ajax({
+           type: 'post',
+           url: 'EliminarUsuario.php',
+           data:{delete_id:id_usuario},
+           success:function(data){
+             
+           location.href ="usuarios.php";
+           }
+       });
+      },
+      function(){alertify.error('Operacion Cancelada')})) {
  
+ 
+     }
+  
+   }
+ 
+  </script>
