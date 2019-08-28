@@ -13,6 +13,8 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
 </head>
 
@@ -48,8 +50,8 @@
                                 <tr>
                                     <th>Id</th>
                                     <th>Nombre</th>
-                                    <th data-hide="phone,tablet">Giro</th>
-                                    <th data-hide="phone,tablet">Total Empleados</th>
+                                    
+                                    
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
@@ -73,6 +75,35 @@
                 </div>
             </div>
             <!-- modal -->
+
+            <div class="modal fade" id="Empresas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+       <br>
+          <br>
+         
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <h4 class="modal-title" id="exampleModalLabel">Editar Sucursal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form class="form-horizontal" method="post" action="EditarEmpresas.php">
+                <div class="fetched-data"></div> 
+       
+      
+      <div class="modal-footer">
+     
+        <button type="submit" class="btn btn-secondary">Editar</button>
+      </div>
+       </form>
+       </div>
+    </div>
+  </div>
+</div>
+     
             <div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog"  aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content animated fadeIn">
@@ -91,7 +122,7 @@
                                     <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="Nombre"></div>
                                     <div class="form-group"><label>Giro</label> <input type="text" placeholder="Giro" class="form-control" id="Giro" name="Giro"></div>
                                     <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
-                                    <div class="form-group"><label>Total de empleados</label> <input type="number" placeholder="" class="form-control" id="Empleados" name="Empleados"></div>
+                                    <!-- <div class="form-group"><label>Total de empleados</label> <input type="number" placeholder="" class="form-control" id="Empleados" name="Empleados"></div> -->
                                
                             </div>
                             
@@ -113,7 +144,10 @@
 
 </div>
 </div>
-     
+<script src="js/active.js"></script>
+<script src="js/alertifyjs/alertify.js"></script>
+    <script src="js/alertifyjs/alertify.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
 
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
@@ -165,6 +199,26 @@
   
             
     </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('#Empresas').on('show.bs.modal', function (e) {
+
+        var rowid = $(e.relatedTarget).data('id');
+        
+        $.ajax({
+            type : 'post',
+            url : 'CargarModalEmp.php', 
+            data :  'rowid='+ rowid, //Pass $id
+            success : function(data){
+              
+              $('.fetched-data').html(data);
+
+          
+            }
+        });
+     });
+});
+</script>
 </body>
 
 

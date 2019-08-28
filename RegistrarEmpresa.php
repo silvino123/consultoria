@@ -4,10 +4,10 @@ require('conec.php');
 
 $nombre=$_POST['Nombre'];
 $giro=$_POST['Giro'];
-$empleados=$_POST['Empleados'];
 
-	$insert= "INSERT INTO empresas (id_Empresa,Nombre,Empleados,Giro) 
-				  values ('','$nombre','$empleados','$giro')";
+
+	$insert= "INSERT INTO empresas (id_Empresa,Nombre,Giro) 
+				  values ('','$nombre','$giro')";
 
 $ejecuta_q= mysqli_query($con,$insert) or die("Error al insertar empresa");
 
