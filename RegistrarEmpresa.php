@@ -6,8 +6,8 @@ $nombre=$_POST['Nombre'];
 $giro=$_POST['Giro'];
 
 
-	$insert= "INSERT INTO empresas (id_Empresa,Nombre,Giro) 
-				  values ('','$nombre','$giro')";
+	$insert= "INSERT INTO empresas (id_Empresa,Nombre) 
+				  values ('','$nombre')";
 
 $ejecuta_q= mysqli_query($con,$insert) or die("Error al insertar empresa");
 
