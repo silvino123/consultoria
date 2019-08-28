@@ -23,6 +23,7 @@ $telefono=$row['telefono'];
 $estado=$row['estado'];
 $ciudad=$row['ciudad'];
 $nempleados=$row['nempleados'];
+$status=$row['EstadoE'];
     // Fetch Records
     // Echo the data you want to show in modal
 
@@ -79,11 +80,16 @@ $nempleados=$row['nempleados'];
     <label for='sel1'>Codigo Postal</label>
         <input type='text' class='form-control'  id='Cp' name='Cp' required='' value='".$cp."'>
     </div>
+    
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Telefono</label>
         <input type='text' class='form-control'  id='Telefono' name='Telefono' required='' value='".$telefono."'>
     </div>
-    
+
+    <div class='col-12 col-lg-6'>
+    <label for='sel1'>Status</label>
+        <input type='text' class='form-control'  id='EstadoE' name='EstadoE' required='' value='".$status."'>
+    </div>
     
     
     </div>

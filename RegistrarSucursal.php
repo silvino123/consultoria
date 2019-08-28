@@ -12,11 +12,13 @@ $Numero=$_POST['Numero'];
 $colonia=$_POST['Colonia'];
 $cp=$_POST['Cp'];
 $telefono=$_POST['Telefono'];
-$estado=$_POST['estado'];
+$estado=$_POST['Estado'];
 $ciudad=$_POST['Ciudad'];
+$nempleados=$_POST['NEmpleados'];
+$status=$_POST['Status'];
 
-	$insert= "INSERT INTO sucursales (id_sucursal,snombre,empresa,rfc,giro,correo,telefono,direccion,ndireccion,estado,ciudad,cp,colonia) 
-				  values ('','$nombre','$sucursal','$rfc', '$giro', '$correo','$telefono', '$calle',$Numero,'$estado', '$ciudad','$cp', '$colonia')";
+	$insert= "INSERT INTO sucursales (id_sucursal,snombre,empresa,rfc,giro,correo,telefono,direccion,ndireccion,estado,ciudad,cp,colonia,EstadoE, NEmpleados) 
+				  values ('','$nombre','$sucursal','$rfc', '$giro', '$correo','$telefono', '$calle',$Numero,'$estado', '$ciudad','$cp', '$colonia', '$status', '$nempleados')";
 
 $ejecuta_q= mysqli_query($con,$insert) or die("Error al insertar sucursal");
 

@@ -1,7 +1,7 @@
 <?php 
 require('conec.php');
 
-$rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.rfc, S.direccion, S.ndireccion, S.Colonia, S.estado, S.ciudad, S.cp, S.correo, S.telefono, S.nempleados from sucursales S inner join empresas E on S.empresa = E.id_Empresa");
+$rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.rfc, S.direccion, S.ndireccion, S.Colonia, S.estado, S.ciudad, S.cp, S.correo, S.telefono, S.nempleados, S.EstadoE from sucursales S inner join empresas E on S.empresa = E.id_Empresa");
 
                        while($row = mysqli_fetch_array($rs)){
 
@@ -20,6 +20,8 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
                           echo "<td> ". $row['correo'] . "</td>";
                           echo "<td> ". $row['telefono'] . "</td>";
                           echo "<td> ". $row['nempleados'] . "</td>";
+                          echo "<td> ". $row['EstadoE'] . "</td>";
+
                           echo "<td>
                          
                            <a class='btn btn-success' data-toggle='modal' data-target='#Sucursales' data-id=".$row['id_sucursal']."><i class='fas fa-pencil-alt' title='Editar' ></i></a> 
