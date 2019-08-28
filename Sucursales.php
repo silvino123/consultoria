@@ -34,26 +34,26 @@
 
 <br>
 <br>
-<div class="row" >
-                <div class="col-lg-12" style="overflow: auto">
+<div class="row"  >
+                <div class="col-lg-12" >
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
                             <h3>Sucursales Registradas</h3>
 
                             
                         </div>
-                        <div class="ibox-content">
+                        <div class="ibox-content" style="overflow: auto">
                         <input type="text" class="form-control input-sm m-b-xs" id="filter"
                                    placeholder="Buscar...">
 
-                            <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
+                            <table class="footable table table-stripped responsive" data-page-size="20" data-filter=#filter>
                                 <thead>
                                 <tr>
                                     <th>Clave</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
                                     <th data-hide="phone,tablet">Giro</th>
-                                    <th data-hide="phone,tablet">Numero de Empleados</th>
+                                    <th data-hide="phone,tablet"># Empleados</th>
                                     <th data-hide="phone,tablet">RFC</th>
                                     <th data-hide="phone,tablet">Calle</th>
                                     <th data-hide="phone,tablet">Numero</th>
@@ -67,7 +67,7 @@
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
-                                <tbody>
+                                <tbody >
                                 <?php 
 
                                 require('ConSucursales.php');

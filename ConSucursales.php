@@ -10,6 +10,7 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
                           echo "<td> ". $row['snombre'] . "</td>";
                           echo "<td> ". $row['Nombre'] . "</td>";
                           echo "<td> ". $row['giro'] . "</td>";
+                          echo "<td> ". $row['nempleados'] . "</td>";
                           echo "<td> ". $row['rfc'] . "</td>";
                           echo "<td> ". $row['direccion'] . "</td>";
                           echo "<td> ". $row['ndireccion'] . "</td>";
@@ -19,7 +20,7 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
                           echo "<td> ". $row['cp'] . "</td>";
                           echo "<td> ". $row['correo'] . "</td>";
                           echo "<td> ". $row['telefono'] . "</td>";
-                          echo "<td> ". $row['nempleados'] . "</td>";
+                          
                           echo "<td> ". $row['EstadoE'] . "</td>";
 
                           echo "<td>

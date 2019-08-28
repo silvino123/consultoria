@@ -14,7 +14,7 @@ $ejecuta_q= mysqli_query($con,$insert) or die("Error al insertar empresa");
 mysqli_close($con);
 echo'<script type="text/javascript">
     
-    location.href="empresas.php";
+    location.href="Sucursales.php";
     </script>';
 
  ?>
