@@ -16,9 +16,10 @@ $telefono=$_POST['Telefono'];
 $estado=$_POST['Estado'];
 $ciudad=$_POST['Ciudad'];
 $nempleados=$_POST['NEmpleados'];
+$status=$_POST['EstadoE'];
 
 
-$qss ="UPDATE sucursales set snombre='$nombre',correo='$correo',empresa = '$empresa', giro = '$giro', rfc = '$rfc', direccion = '$calle', ndireccion = '$Numero', Colonia = '$colonia', estado = '$estado', ciudad = '$ciudad', cp = '$cp', telefono = '$telefono', nempleados = '$nempleados' WHERE id_sucursal='$id'"; 
+$qss ="UPDATE sucursales set snombre='$nombre',correo='$correo',empresa = '$empresa', giro = '$giro', rfc = '$rfc', direccion = '$calle', ndireccion = '$Numero', Colonia = '$colonia', estado = '$estado', ciudad = '$ciudad', cp = '$cp', telefono = '$telefono', nempleados = '$nempleados', EstadoE = '$status' WHERE id_sucursal='$id'"; 
 
 $ejecuta_qss= mysqli_query($con,$qss) or die("error al actualizar datos");
 
