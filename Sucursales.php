@@ -137,11 +137,13 @@
                                     ?>
                                     
                                     </select>
-                                    <div class="form-group"><label>Numero De Empleados</label> <input type="text" placeholder="NEmpleados" class="form-control" id="NEmpleados" name="NEmpleados"></div>
+                                    <br>
+                                    <div class="form-group"><label>Giro</label> <input  placeholder="Giro" class="form-control" id="Giro" name="Giro" ></div>
+                                    <div class="form-group"><label>Numero De Empleados</label> <input type="text" placeholder="Numero de Empleados" class="form-control" id="NEmpleados" name="NEmpleados"></div>
                                     <div class="form-group"><label>RFC</label> <input type="text" placeholder="RFC" class="form-control" id="RFC" name="RFC"></div>
                                     <div class="form-group"><label>Calle</label> <input  placeholder="Calle" class="form-control" id="Calle" name="Calle" >
                                     <div class="form-group"><label>Numero</label> <input type="text" placeholder="Numero" class="form-control" id="Numero" name="Numero"></div>
-                                   
+                                    
                                    
                                     <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
                                     
@@ -155,31 +157,29 @@
                        
                                         </div>
                                         <div class="col-sm-6 b-r">
-                                        <div class="form-group"><label>Colonia</label> <input  placeholder="Colonia" class="form-control" id="Colonia" name="Colonia" >
+                                        <div class="form-group"><label>Colonia</label> <input  placeholder="Colonia" class="form-control" id="Colonia" name="Colonia" ></div>
                                     <div class="form-group"><label>Estado</label> <input type="text" placeholder="Estado" class="form-control" id="Estado" name="Estado"></div>
                                     <div class="form-group"><label>Ciudad</label> <input  placeholder="Ciudad" class="form-control" id="Ciudad" name="Ciudad" >
                                     <div class="form-group"><label>Codigo Postal</label> <input type="text" placeholder="Codigo Postal" class="form-control" id="Cp" name="Cp"></div>
                                     <div class="form-group"><label>Correo</label> <input  placeholder="Correo" class="form-control" id="Correo" name="Correo" >
                                     <div class="form-group"><label>Telefono</label> <input  placeholder="Telefono" class="form-control" id="Telefono" name="Telefono" >
-                                    <div class="form-group"><label>Giro</label> <input  placeholder="Giro" class="form-control" id="Giro" name="Giro" >
-                                    </div>
-                                    <div class="form-group"><label>Status</label> <input  placeholder="Status" class="form-control" id="Status" name="Status" >
-                                    </div>
+                                    
+                                    <div class="form-group"><label>Status</label> <input  placeholder="Status" class="form-control" id="Status" name="Status" > </div>
                                    
                                         </div>
                                         <!-- </form> -->
-                                        <button type="submit" class="btn btn-primary">Registrar</button>
-                                          </form>    
+                                         
                                     </div>
-                                   
+                                    <button type="submit" class="btn btn-primary">Registrar</button>
+                                          </form>   
                                 </div>
                                 
                             </div>
-  <?php include 'footer.html'; ?>  
+                            </div>
   <div class="modal-footer">
-                                            
+  <?php include 'footer.html'; ?>                     
                                          
-</div>
+
 
 </div>
 </div>
