@@ -1,6 +1,8 @@
 <?php 
 require('conec.php');
 
+//$rs = mysqli_query($con, "SELECT A.id_Area, A.anombre, S.snombre, E.Nombre from areas A inner join sucursales S on A.sucursales = S.id_sucursal inner join empresas E on S.empresa = E.id_Empresa");
+
 $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal");
 
 
@@ -15,8 +17,7 @@ $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u
                           echo "<td> ". $row['tipo'] . "</td>";
                           echo "<td>
                          
-
-                          <a data-toggle='modal' data-target='#usuarios' class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>
+                          <a data-toggle='modal' data-target='#usuarios' data-id=".$row['id_usuario']." class='btn btn-success'><i class='fas fa-pencil-alt' title='Editar'></i></a>                        
                           <a onclick='deleteAjax(".$row['id_usuario'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
                                                   
                           </td>";
