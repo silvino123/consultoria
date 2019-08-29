@@ -48,12 +48,12 @@
 
                             <table class="footable table table-stripped responsive" data-page-size="20" data-filter=#filter>
                                 <thead>
-                                <tr>
+                                <tr  style="background-color:#1c84c6;color:#fff">
                                     <th>Clave</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
                                     <th data-hide="phone,tablet">Giro</th>
-                                    <th data-hide="phone,tablet"># Empleados</th>
+                                    <th data-hide="phone,tablet">#Empleados</th>
                                     <th data-hide="phone,tablet">RFC</th>
                                     <th data-hide="phone,tablet">Calle</th>
                                     <th data-hide="phone,tablet">Numero</th>

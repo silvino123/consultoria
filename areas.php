@@ -47,7 +47,7 @@
 
                             <table class="footable table table-stripped responsive" data-page-size="15" data-filter=#filter>
                                 <thead>
-                                <tr>
+                                <tr  style="background-color:#1c84c6;color:#fff">
                                     <th>Id</th>
                                     <th>Nombre</th>
                                     <th data-hide="phone,tablet">Empresa</th>
