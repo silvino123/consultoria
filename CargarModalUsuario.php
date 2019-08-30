@@ -6,10 +6,11 @@ if($_POST['rowid']) {
     $id_usuario = $_POST['rowid']; 
     
 
-    $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre, FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal where u.id_usuario ='$id_usuario'");
+    $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal where u.id_usuario ='$id_usuario'");
+    //$rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre, E.Nombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal inner join empresas E on S.empresa = E.id_Empresa where u.id_usuario ='$id_usuario'");
     $row = mysqli_fetch_array($rs);
 
-    $ids=$row['id_usuario'];
+    $id=$row['id_usuario'];
     $nombre=$row['nombre'];
     $correo=$row['correo'];
     $password=$row['password'];
@@ -22,7 +23,7 @@ if($_POST['rowid']) {
     echo "<div class='row'>
             <div class='form-group' style='display: none'>
                 <label for='sel1'>Id</label>
-                <input type='text' class='form-control' id='id_usuario' name='id_usuario' required=''   value='".$ids."'>
+                <input type='text' class='form-control' id='id_usuario' name='id_usuario' required=''   value='".$id."'>
             </div>
             <div class='form-group'>
                 <label for='sel1'>Nombre</label>
@@ -46,11 +47,7 @@ if($_POST['rowid']) {
                 </select>
             </div>                                                                                                                
             <div class='form-group'><label>Sucursal</label> 
-                <select  placeholder='' class='form-control' id='id_sucursal' name='id_sucursal' required='>
-                    <?php 
-                        require('ConSelectSucursal.php');
-                    ?>
-                </select>
+                <input type='text' class='form-control' readonly=»readonly» id='Correo' name='Sucursal' required='' value='".$sucursal."'>
             </div>
     
         </div>

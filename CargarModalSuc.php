@@ -6,12 +6,12 @@ if($_POST['rowid']) {
     $id = $_POST['rowid']; 
     
 
-$rs = mysqli_query($con, "SELECT * FROM sucursales where id_sucursal ='$id'");
+$rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, S.giro, S.correo, S.rfc, S.direccion, S.ndireccion, S.Colonia, S.cp, S.telefono, S.estado, S.ciudad, S.nempleados, S.EstadoE, E.nombre FROM sucursales S inner join Empresas E on S.empresa = E.id_empresa where id_sucursal ='$id'");
     $row = mysqli_fetch_array($rs);
     $id=$row['id_sucursal'];
 
 $nombre=$row['snombre'];
-$empresa=$row['empresa'];
+$empresa=$row['nombre'];
 $giro=$row['giro'];
 $correo=$row['correo'];
 $rfc=$row['rfc'];
@@ -37,8 +37,9 @@ $status=$row['EstadoE'];
         <input type='text' class='form-control' id='Nombre' name='Nombre' required='' value='".$nombre."'>
     </div>
     <div class='col-12 col-lg-6'>
-    <label for='sel1'>Empresa</label>
-        <input type='text' class='form-control'  id='Empresa' name='Empresa' required='' value='".$empresa."'>
+    <label for='sel1'>Empresa</label>       
+    
+    <input type='text' class='form-control' readonly=»readonly» id='Empresa' name='Empresa' required='' value='".$empresa."'>
     </div>
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Giro</label>
