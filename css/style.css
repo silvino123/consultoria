@@ -7227,6 +7227,12 @@ div.transbox i {
   background: #f4f4f4;
   margin-top: 60px;
 }
+.landing-page .planes-section {
+  background: #009000;
+  margin-top: 60px;
+  opacity: 0.9;
+ 
+}
 .landing-page .team-member {
   text-align: center;
 }
