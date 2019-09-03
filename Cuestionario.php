@@ -2,7 +2,7 @@
 //aqui se obtendra la base de datos el numero empleados
 //$nombre=$_POST['empresa'];
 //sera asigando a la variable
-$numero_empleados= $_POST['empresa'];
+$numero_empleados= $_POST['sucursal'];
 
 ?>
 <!DOCTYPE html>                                                                                                                                                                                                                                                                                                                                                                 
@@ -89,7 +89,7 @@ $numero_empleados= $_POST['empresa'];
                         </div>                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
 
-                            <form id="form" metod="POST" action="RegistrarCuestionanrio.php" class="wizard-big">                                                                                                                                                                                                                                                                                                                                                                  
+                            <form id="form" method="POST" action="RegistrarEncuesta.php" class="wizard-big">                                                                                                                                                                                                                                                                                                                                                                  
                                 <h1>Datos del Trabajador</h1>                                                                                                                                                                                                                                                                                                                                                                   
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
                                 <?php include 'DatosEmpleado.php'; ?>

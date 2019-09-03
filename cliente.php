@@ -1,3 +1,25 @@
+<?php 
+require('conec.php');
+    session_start();
+//  if (!isset( $_SESSION["nombre"])){
+    
+//     header("location:login.html");
+  
+//   }
+ $idsuc= $_SESSION["id_sucursal"];
+ $rs = mysqli_query($con, "SELECT Suc.nempleados FROM sucursales Suc  where id_sucursal ='$idsuc'");
+ $row = mysqli_fetch_array($rs);
+ $empleados=$row['nempleados'];
+ $consultacues = "SELECT * FROM cuestionario where  id_sucursal='$idsuc'";
+ $resultadocues = mysqli_query($con,$consultacues);
+ $totalcues = mysqli_num_rows($resultadocues);
+ $totalFaltantes=$empleados-$totalcues;
+ mysqli_close($con);
+ 
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +51,7 @@
                                 <h5>Encuestas Aplicadas</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">40 886,200</h1>
+                                <h1 class="no-margins"><?php echo $totalcues; ?></h1>
                                 <div class="stat-percent font-bold text-success"> <i class="fas fa-tasks"></i></div>
                                 <small>Total de encuestas</small>
                             </div>
@@ -39,12 +61,12 @@
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
                                 <span class="label label-info pull-right">Total</span>
-                                <h5>Empleados Encuestados</h5>
+                                <h5>Empleados</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">275,800</h1>
+                                <h1 class="no-margins"><?php echo $empleados; ?></h1>
                                 <div class="stat-percent font-bold text-info"> <i class="fas fa-building"></i></div>
-                                <small>Total de empleados encuestados</small>
+                                <small>Total de empleados</small>
                             </div>
                         </div>
                     </div>
@@ -55,7 +77,7 @@
                                 <h5>Empleados Faltantes</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">106,120</h1>
+                                <h1 class="no-margins"><?php echo $totalFaltantes; ?></h1>
                                 <div class="stat-percent font-bold text-danger"> <i class="fas fa-user"></i></div>
                                 <small>Total de empleados faltantes</small>
                             </div>

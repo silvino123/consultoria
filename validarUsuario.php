@@ -15,15 +15,15 @@ $row    = mysqli_fetch_assoc($qs);
          $nombre= $row['correo'];
          $password = $row['password'];
          $tipo = $row['tipo'];
-
-        session_start();
+         $idsuc=$row['id_sucursal'];
+        
     if ($row["correo"] == $correo && $row["password"] == $password) {
        
-        
+        session_start();
         $_SESSION['nombre'] = $nombre;
         $_SESSION['tipo'] = $tipo;
         $_SESSION['id'] = $id;
-
+        $_SESSION['id_sucursal'] = $idsuc;
          
 
         echo "

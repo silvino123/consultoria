@@ -1,3 +1,28 @@
+<?php 
+require('conec.php');
+    session_start();
+//  if (!isset( $_SESSION["nombre"])){
+    
+//     header("location:login.html");
+  
+//   }
+$mesActual= date("m");
+
+$consulta = "SELECT * FROM sucursales";
+$consultaUs = "SELECT * FROM usuarios";
+$consultacues = "SELECT * FROM cuestionario where  MONTH(fecha)='$mesActual'";
+$resultado = mysqli_query($con,$consulta);
+$resultadoUs = mysqli_query($con,$consultaUs);
+$resultadocues = mysqli_query($con,$consultacues);
+// Obtenemos el número de filas
+$totalsuc = mysqli_num_rows($resultado);
+$totalus = mysqli_num_rows($resultadoUs);
+$totalcues = mysqli_num_rows($resultadocues);
+ mysqli_close($con);
+ 
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,58 +47,46 @@
 <?php include 'Nav.html'; ?>  
 <div class="wrapper wrapper-content">
 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
                                 <span class="label label-success pull-right">Mes</span>
                                 <h5>Encuestas Realizadas</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">40 886,200</h1>
+                                <h1 class="no-margins"><?php echo $totalcues; ?></h1>
                                 <div class="stat-percent font-bold text-success"> <i class="fas fa-tasks"></i></div>
                                 <small>Total de encuestas</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
                                 <span class="label label-info pull-right">Total</span>
                                 <h5>Empresas Registradas</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">275,800</h1>
+                                <h1 class="no-margins"><?php echo $totalsuc; ?></h1>
                                 <div class="stat-percent font-bold text-info"> <i class="fas fa-building"></i></div>
                                 <small>Total de empresas</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
                                 <span class="label label-primary pull-right">Total</span>
                                 <h5>Usuarios</h5>
                             </div>
                             <div class="ibox-content">
-                                <h1 class="no-margins">106,120</h1>
+                                <h1 class="no-margins"><?php echo $totalus; ?></h1>
                                 <div class="stat-percent font-bold text-navy"> <i class="fas fa-user"></i></div>
                                 <small>Total de usuaraios</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title">
-                                <!-- <span class="label label-danger pull-right">Low value</span>
-                                <h5>User activity</h5> -->
-                            </div>
-                            <div class="ibox-content">
-                                <!-- <h1 class="no-margins">80,600</h1>
-                                <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i></div>
-                                <small>In first month</small> -->
-                            </div>
-                        </div>
-            </div>
+                   
         </div>
         <div class="row">
                     <div class="col-lg-12">
@@ -96,41 +109,44 @@
                                             <tr>
                                                 <th>Estatus</th>
                                                 <th>Empresa</th>
-                                                <th>Responsables</th>
+                                                
                                                 <th>Encuestas Aplicadas</th>
                                             </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                            <?php 
+                                        require('ContAdmin.php');
+                                             ?>
+                                            <!-- <tr>
                                                 <td><span class="label label-warning">En proceso</span></td>
                                                 <td>tornillos y mangueras</td>
-                                                <td>Samantha</td>
+                                                
                                                 <td class="text-navy"> <i class="fas fa-level-up-alt"></i> 24 </td>
                                             </tr>
                                             <tr>
                                                 <td><span class="label label-primary">Finalizado</span> </td>
                                                 <td>sycsoft</td>
-                                                <td>Monica</td>
+                                            
                                                 <td class="text-navy"> <i class="fas fa-level-up-alt"></i> 66 </td>
                                             </tr>
                                             <tr>
                                                 <td><span class="label label-warning">En proceso</span> </td>
                                                 <td>luces de hermosillo</td>
-                                                <td>John</td>
+                                               
                                                 <td class="text-navy"> <i class="fas fa-level-up-alt"></i> 54 </td>
                                             </tr>
                                             <tr>
                                                 <td><span class="label label-warning">En proceso</span></td>
                                                 <td>plasticos del norte</td>
-                                                <td>Agnes</td>
+                                               
                                                 <td class="text-navy"> <i class="fas fa-level-up-alt"></i> 12 </td>
                                             </tr>
                                             <tr>
                                                 <td><span class="label label-primary">Finalizado</span> </td>
                                                 <td>conduent</td>
-                                                <td>Janet</td>
+                                               
                                                 <td class="text-navy"> <i class="fas fa-level-up-alt"></i> 22</td>
-                                            </tr>
+                                            </tr> -->
                                            
                                             </tbody>
                                         </table>

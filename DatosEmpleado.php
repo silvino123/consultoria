@@ -11,8 +11,8 @@
 
 
             <div class="text-left"  id="Sexo">             
-            <div class="i-checks" ><label > <input type="radio" value="Masculino"   name="sexo"  required > <i></i> Masculino </ label></div>              
-             <div class="i-checks"  ><label required> <input type="radio"  value="Femenino"  name="sexo" required > <i></i> Femenino </label></div>                
+            <div class="i-checks" ><label > <input type="radio" value="Masculino"   name="sexo" id="sexo"  required > <i></i> Masculino </ label></div>              
+             <div class="i-checks"  ><label required> <input type="radio"  value="Femenino"  name="sexo"id="sexo" required > <i></i> Femenino </label></div>                
             </div>              
 
         <br>                
@@ -26,28 +26,28 @@
 
           <div class="row">             
           <div class="col-md-3">                
-           <div class="i-checks"><label> <input type="radio" value="15 a 19" name="edad" required> <i></i> 15 a 19 </label></div>                
-            <div class="i-checks"><label> <input type="radio"  value="20 a 24" name="edad" required> <i></i>20 a 24 </label></div>               
+           <div class="i-checks"><label> <input type="radio" value="15 a 19" name="edad" id="edad" required> <i></i> 15 a 19 </label></div>                
+            <div class="i-checks"><label> <input type="radio"  value="20 a 24" name="edad" id="edad" required> <i></i>20 a 24 </label></div>               
 
-           <div class="i-checks"><label> <input type="radio" value="25 a 29 " name="edad" required> <i></i> 25 a 29 </label></div>                
+           <div class="i-checks"><label> <input type="radio" value="25 a 29 " name="edad" id="edad" required> <i></i> 25 a 29 </label></div>                
          </div>             
          <div class="col-md-3">             
-           <div class="i-checks"><label> <input type="radio" value="30 a 34" name="edad" required> <i></i> 30 a 34 </label></div>                
-            <div class="i-checks"><label> <input type="radio"  value="35 a 39" name="edad" required> <i></i>35 a 39 </label></div>               
+           <div class="i-checks"><label> <input type="radio" value="30 a 34" name="edad" id="edad" required> <i></i> 30 a 34 </label></div>                
+            <div class="i-checks"><label> <input type="radio"  value="35 a 39" name="edad"id="edad" required> <i></i>35 a 39 </label></div>               
 
-           <div class="i-checks"><label> <input type="radio" value="40 a 44" name="edad" required> <i></i> 40 a 44 </label></div>                
+           <div class="i-checks"><label> <input type="radio" value="40 a 44" name="edad"id="edad" required> <i></i> 40 a 44 </label></div>                
          </div>             
          <div class="col-md-3">             
-           <div class="i-checks"><label> <input type="radio" value="45 a 49" name="edad" required> <i></i> 45 a 49 </label></div>                
-            <div class="i-checks"><label> <input type="radio"  value="50 a 54" name="edad" required> <i></i>50 a 54 </label></div>               
+           <div class="i-checks"><label> <input type="radio" value="45 a 49" name="edad"id="edad" required> <i></i> 45 a 49 </label></div>                
+            <div class="i-checks"><label> <input type="radio"  value="50 a 54" name="edad" id="edad" required> <i></i>50 a 54 </label></div>               
 
-           <div class="i-checks"><label> <input type="radio" value="55 a 59" name="edad" required> <i></i> 55 a 59 </label></div>                
+           <div class="i-checks"><label> <input type="radio" value="55 a 59" name="edad"id="edad" required> <i></i> 55 a 59 </label></div>                
          </div>             
          <div class="col-md-3">             
-           <div class="i-checks"><label> <input type="radio" value="60 a 64" name="edad" required> <i></i> 60 a 64 </label></div>                
-            <div class="i-checks"><label> <input type="radio"  value="65 a 69" name="edad" required> <i></i>65 a 69 </label></div>               
+           <div class="i-checks"><label> <input type="radio" value="60 a 64" name="edad"id="edad" required> <i></i> 60 a 64 </label></div>                
+            <div class="i-checks"><label> <input type="radio"  value="65 a 69" name="edad"id="edad" required> <i></i>65 a 69 </label></div>               
 
-           <div class="i-checks"><label> <input type="radio" value="70 a 75" name="edad" required> <i></i> 70 a 75 </label></div>                
+           <div class="i-checks"><label> <input type="radio" value="70 a 75" name="edad"id="edad" required> <i></i> 70 a 75 </label></div>                
          </div>             
         </div>              
        </div>               
@@ -130,7 +130,7 @@
 
           <div class="row">             
           <div class="col-md-10">               
-          <input type="text"  class="form-control required" required>             
+          <input type="text"  class="form-control required" name="puesto" required>             
           </div>                
 
         </div>                  
@@ -143,7 +143,7 @@
         </div>              
         <div class="row">               
           <div class="col-md-10">               
-          <input type="text"  class="form-control required" required>             
+          <input type="text"  class="form-control required" name="area" required>             
           </div>                
 
         </div>              

@@ -26,16 +26,16 @@
      <form method="POST" action="Cuestionario.php">
      <div class="col-md-3">
                     
-     <select class="select2_demo_1 form-control" name="empresa" id="empresa">
-     <option value="" selected>Seleccione una Empresa</option>
+     <select class="select2_demo_1 form-control" name="sucursal" id="sucursal" required>
+     <option value="" selected>Seleccione una Sucursal</option>
      <?php 
 require('conec.php');
 
-$rs = mysqli_query($con, "SELECT * FROM Empresas");
+$rs = mysqli_query($con, "SELECT * FROM sucursales");
 
    while($row = mysqli_fetch_array($rs)){
   
-     echo"<option value=".$row['Empleados'] ." required >". $row['Nombre'] ."</option>";
+     echo"<option value=".$row['nempleados'] ." required >". $row['snombre'] ."</option>";
                          
     }
 
