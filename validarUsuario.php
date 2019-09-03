@@ -22,7 +22,7 @@ $row    = mysqli_fetch_assoc($qs);
         session_start();
         $_SESSION['nombre'] = $nombre;
         $_SESSION['tipo'] = $tipo;
-        $_SESSION['id'] = $id;
+        $_SESSION['id_usuario'] = $id;
         $_SESSION['id_sucursal'] = $idsuc;
          
 

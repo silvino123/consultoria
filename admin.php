@@ -64,12 +64,12 @@ $totalcues = mysqli_num_rows($resultadocues);
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
                                 <span class="label label-info pull-right">Total</span>
-                                <h5>Empresas Registradas</h5>
+                                <h5>Sucursales Registradas</h5>
                             </div>
                             <div class="ibox-content">
                                 <h1 class="no-margins"><?php echo $totalsuc; ?></h1>
                                 <div class="stat-percent font-bold text-info"> <i class="fas fa-building"></i></div>
-                                <small>Total de empresas</small>
+                                <small>Total de Sucursales</small>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ $totalcues = mysqli_num_rows($resultadocues);
                                 <div class="col-lg-12">
                                 <table class="table table-hover no-margins">
                                             <thead>
-                                            <tr>
+                                            <tr style="background-color:#1c84c6;color:#fff">
                                                 <th>Estatus</th>
                                                 <th>Empresa</th>
                                                 
