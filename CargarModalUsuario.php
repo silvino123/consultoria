@@ -6,7 +6,7 @@ if($_POST['rowid']) {
     $id_usuario = $_POST['rowid']; 
     
 
-    $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal where u.id_usuario ='$id_usuario'");
+    $rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre,u.id_sucursal FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal where u.id_usuario ='$id_usuario'");
     //$rs = mysqli_query($con, "SELECT u.id_usuario, u.nombre, u.correo, u.password, u.tipo, S.snombre, E.Nombre FROM usuarios u inner join sucursales S on u.id_sucursal = S.id_sucursal inner join empresas E on S.empresa = E.id_Empresa where u.id_usuario ='$id_usuario'");
     $row = mysqli_fetch_array($rs);
 
@@ -15,12 +15,13 @@ if($_POST['rowid']) {
     $correo=$row['correo'];
     $password=$row['password'];
     $tipo=$row['tipo'];
-    $sucursal=$row['snombre'];
+    $sucursal=$row['id_sucursal'];
 
     // Fetch Records
     // Echo the data you want to show in modal
 
     echo "<div class='row'>
+    <div class='col-12 col-lg-10'>
             <div class='form-group' style='display: none'>
                 <label for='sel1'>Id</label>
                 <input type='text' class='form-control' id='id_usuario' name='id_usuario' required=''   value='".$id."'>
@@ -51,7 +52,7 @@ if($_POST['rowid']) {
             </div>
     
         </div>
-    
+        </div>
     ";
      
    

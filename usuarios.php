@@ -86,7 +86,7 @@
                         
                     <div class="modal-content">
                         <div class="modal-header">                            
-                            <h5 class="modal-title" id="exampleModalLabel">Editar Usuario</h5>
+                            <h3 class="modal-title text-center" id="exampleModalLabel">Editar Usuario</h3>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -95,7 +95,7 @@
                             <form class="form-horizontal" method="post" action="EditarUsuarios.php">
                                 <div class="fetched-data"></div> 
                                 <div class="modal-footer">
-                                    <button type="submit" class="btn btn-secondary">Editar</button>
+                                    <button type="submit" class="btn btn-primary">Editar</button>
                                 </div>
                             </form>
                         </div>
@@ -214,7 +214,7 @@
         $(document).ready(function(){
             $('#usuarios').on('show.bs.modal', function (e) {
 
-                var rowid = $(e.relatedTarget).data('id_usuario');
+                var rowid = $(e.relatedTarget).data('id');
                 
                 $.ajax({
                     type : 'post',

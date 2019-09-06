@@ -7,7 +7,7 @@ $nombre=$_POST['nombre'];
 $correo=$_POST['correo'];
 $password=$_POST['password'];
 $tipo=$_POST['tipo'];
-$id_sucursal=$_POST['id_sucursal'];
+$id_sucursal=$_POST['Sucursal'];
 
 //$rs = mysqli_query($con,"SELECT * FROM usuarios WHERE id_usuarios='$id_usuario'");
 
