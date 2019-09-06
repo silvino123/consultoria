@@ -64,6 +64,7 @@
                                     <th data-hide="phone,tablet">Correo</th>
                                     <th data-hide="phone,tablet">Telefono</th>
                                     <th data-hide="phone,tablet">Status</th>
+                                    <th data-hide="phone,tablet">Documento</th>
                                     <th data-hide="phone,tablet">Acciones</th>
                                 </tr>
                                 </thead>
@@ -96,19 +97,19 @@
     <div class="modal-content">
       <div class="modal-header">
          
-        <h4 class="modal-title" id="exampleModalLabel">Editar Sucursal</h4>
+        <h3 class="modal-title text-center" id="exampleModalLabel"><b>Editar Sucursal</b></h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      <form class="form-horizontal" method="post" action="EditarSucursales.php">
+      <form class="form-horizontal" method="POST" action="EditarSucursales.php">
                 <div class="fetched-data"></div> 
        
       
       <div class="modal-footer">
      
-        <button type="submit" class="btn btn-secondary">Editar</button>
+        <button type="submit" class="btn btn-primary">Editar</button>
       </div>
        </form>
        </div>

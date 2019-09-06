@@ -6,7 +6,7 @@ if($_POST['rowid']) {
     $id = $_POST['rowid']; 
     
 
-$rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, S.giro, S.correo, S.rfc, S.direccion, S.ndireccion, S.Colonia, S.cp, S.telefono, S.estado, S.ciudad, S.nempleados, S.EstadoE, E.nombre FROM sucursales S inner join Empresas E on S.empresa = E.id_empresa where id_sucursal ='$id'");
+$rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, S.giro, S.correo, S.rfc, S.direccion, S.ndireccion, S.Colonia, S.cp, S.telefono, S.estado, S.ciudad, S.nempleados, S.EstadoE, S.documento, E.nombre FROM sucursales S inner join Empresas E on S.empresa = E.id_empresa where id_sucursal ='$id'");
     $row = mysqli_fetch_array($rs);
     $id=$row['id_sucursal'];
 
@@ -24,6 +24,7 @@ $estado=$row['estado'];
 $ciudad=$row['ciudad'];
 $nempleados=$row['nempleados'];
 $status=$row['EstadoE'];
+$doc=$row['documento'];
     // Fetch Records
     // Echo the data you want to show in modal
 
@@ -90,6 +91,20 @@ $status=$row['EstadoE'];
     <div class='col-12 col-lg-6'>
     <label for='sel1'>Status</label>
         <input type='text' class='form-control'  id='EstadoE' name='EstadoE' required='' value='".$status."'>
+    </div>
+    
+    
+    </div>
+    <div class='col-12 col-lg-6'>
+    <label for='sel1'>Documento</label>
+        <input type='text' class='form-control'  id='documento' name='documento'  value='".$doc."'>
+    </div>
+    
+    
+    </div>
+    <div class='col-12 col-lg-6'>
+    <label for='sel1'></label>
+        
     </div>
     
     
