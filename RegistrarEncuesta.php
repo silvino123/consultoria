@@ -111,20 +111,20 @@ $gq70=$_POST['GQ70'];
 $gq71=$_POST['GQ71'];
 $gq72=$_POST['GQ72'];
 $fecha= date("Y-m-d");
-$id_usuario=5;
-$id_Empresa=2;
-$id_sucursal=1;
-$tipo="GRII";
+$id_usuario=2;
+$id_Empresa=1;
+$id_sucursal=4;
+$tipo="GRIII";
 
 	$insert= "INSERT INTO cuestionario (id_cuestionario,sexo,edad,estado,estudios,puesto,area,contrato,personal,jornada,experiencia,dependientes,general,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,gq1,gq2,gq3,gq4,gq5,gq6,gq7,gq8,gq9,gq10,gq11,gq12,gq13,gq14,gq15,gq16,gq17,gq18,gq19,gq20,gq21,gq22,gq23,gq24,gq25,gq26,gq27,gq28,gq29,gq30,gq31,gq32,gq33,gq34,gq35,gq36,gq37,gq38,gq39,gq40,gqif1,gq41,gq42,gq43,gqif2,gq44,gq45,gq46,gq47,gq48,gq49,gq50,gq51,gq52,gq53,gq54,gq55,gq56,gq57,gq58,gq59,gq60,gq61,gq62,gq63,gq64,gq65,gq66,gq67,gq68,gq69,gq70,gq71,gq72,id_consultor,id_empresa,fecha,id_sucursal,tipo) 
-				  values ('','$Sexo','$Edad','$Status','$Estudios','$Puesto','$Area','$Contrato',$Personal,'$Jornada','$Experiencia','$Dependientes','$General','$q1','$q2','$q2','$q4','$q5','$q6','$q7','$q8','$q9','$q10','$q11','$q12','$q13','$q14','$q15','$q16','$q17','$q18','$q19','$q20','$gq1','$gq2','$gq3,'$gq4','$gq5','$gq6','$gq7','$gq8','$gq9','$gq10','$gq11','$gq12','$gq13','$gq14','$gq15','$gq16','$gq17','$gq18','$gq19','$gq20','$gq21','$gq22','$gq23','$gq24','$gq25','$gq26','$gq27','$gq28','$gq29','$gq30','$gq31','$gq32','$gq33','$gq34','$gq35','$gq36','$gq37','$gq38','$gq39','$gq40','$gq41','$gqif1','$gq42','$gq43','$gqif2','$gq44','$gq45','$gq46','$gq47','$gq48','$gq49', '$gq50', '$gq51','$gq52','$gq53','$gq54','$gq55','$gq56','$gq57','$gq58','$gq59','$gq60','$gq61','$gq62','$gq63','$gq64','$gq65','$gq66','$gq67','$gq68','$gq69','$gq70','$gq72','$id_usuario','$id_Empresa','$fecha','$id_sucursal','$tipo')";
+				  values ('','$Sexo','$Edad','$Status','$Estudios','$Puesto','$Area','$Contrato','$Personal','$Jornada','$Experiencia','$Dependientes','$General','$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10','$q11','$q12','$q13','$q14','$q15','$q16','$q17','$q18','$q19','$q20','$gq1','$gq2','$gq3','$gq4','$gq5','$gq6','$gq7','$gq8','$gq9','$gq10','$gq11','$gq12','$gq13','$gq14','$gq15','$gq16','$gq17','$gq18','$gq19','$gq20','$gq21','$gq22','$gq23','$gq24','$gq25','$gq26','$gq27','$gq28','$gq29','$gq30','$gq31','$gq32','$gq33','$gq34','$gq35','$gq36','$gq37','$gq38','$gq39','$gq40','$gqif1','$gq41','$gq42','$gq43','$gqif2','$gq44','$gq45','$gq46','$gq47','$gq48','$gq49', '$gq50', '$gq51','$gq52','$gq53','$gq54','$gq55','$gq56','$gq57','$gq58','$gq59','$gq60','$gq61','$gq62','$gq63','$gq64','$gq65','$gq66','$gq67','$gq68','$gq69','$gq70','$gq71','$gq72','$id_usuario','$id_Empresa','$fecha','$id_sucursal','$tipo')";
 
 $ejecuta_q= mysqli_query($con,$insert) or die("Error al insertar el cuestionario");
 
 mysqli_close($con);
 echo'<script type="text/javascript">
     
-    location.href="Cuestionario.php";
+    location.href="consultor.php";
     </script>';
 
  ?>

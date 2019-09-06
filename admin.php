@@ -7,10 +7,10 @@ require('conec.php');
   
 //   }
 $mesActual= date("m");
-
+$anoactual= date("Y");
 $consulta = "SELECT * FROM sucursales";
 $consultaUs = "SELECT * FROM usuarios";
-$consultacues = "SELECT * FROM cuestionario where  MONTH(fecha)='$mesActual'";
+$consultacues = "SELECT * FROM cuestionario where YEAR(fecha)='$anoactual' and MONTH(fecha)='$mesActual'";
 $resultado = mysqli_query($con,$consulta);
 $resultadoUs = mysqli_query($con,$consultaUs);
 $resultadocues = mysqli_query($con,$consultacues);
@@ -56,7 +56,7 @@ $totalcues = mysqli_num_rows($resultadocues);
                             <div class="ibox-content">
                                 <h1 class="no-margins"><?php echo $totalcues; ?></h1>
                                 <div class="stat-percent font-bold text-success"> <i class="fas fa-tasks"></i></div>
-                                <small>Total de encuestas</small>
+                                <small>Total de encuestas Mensual</small>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ $totalcues = mysqli_num_rows($resultadocues);
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>Seguimiento de empresas encuestadas</h5>
+                                <h5>Seguimiento de Sucursales encuestadas</h5>
                                 <div class="pull-right">
                                     <div class="btn-group">
                                         <!-- <button type="button" class="btn btn-xs btn-white active">Today</button>
@@ -108,7 +108,7 @@ $totalcues = mysqli_num_rows($resultadocues);
                                             <thead>
                                             <tr style="background-color:#1c84c6;color:#fff">
                                                 <th>Estatus</th>
-                                                <th>Empresa</th>
+                                                <th>Sucursal</th>
                                                 
                                                 <th>Encuestas Aplicadas</th>
                                             </tr>

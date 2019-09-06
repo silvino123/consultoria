@@ -30,9 +30,27 @@
                                
                             </div>
                             <div class="ibox-content" >
-              
+                            <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-hover ">
+                              <thead>
+                              <tr>
+                              <th colspan="3" class="text-center" style="background-color:#1c84c6;color:#fff" >Reporte de resultados por areas</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                              <td colspan="2" class="text-center" style="background-color:#d2d2d2;color:#000000"><b>Area<b></td>
+                              <td colspan="1" class="text-center" style="background-color:#d2d2d2;color:#000000"><b>Resultados<b></td>
+                              
+                              </tr>
+                              <?php include 'ResultadosAreas.php'; ?>
+                             
+                              
+                              </tbody>
+                            </table>
+                            <div>
                            
-                            <?php include 'ResultadosAreas.php'; ?>
+                           
                             </div>
                            
 

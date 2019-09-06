@@ -119,10 +119,8 @@
                             <div class="row">
                             <div class="col-sm-6 b-r">
                                 <form  method="POST" action="RegistrarEmpresa.php">
-                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="Nombre"></div>
-                                    <!-- <div class="form-group"><label>Giro</label> <input type="text" placeholder="Giro" class="form-control" id="Giro" name="Giro"></div> -->
-                                    <!-- <div class="form-group"><label>Areas</label> <input type="Areas" placeholder="Areas" class="form-control"></div> -->
-                                    <!-- <div class="form-group"><label>Total de empleados</label> <input type="number" placeholder="" class="form-control" id="Empleados" name="Empleados"></div> -->
+                                    <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Nombre" class="form-control" id="Nombre" name="Nombre" required></div>
+                                    
                                
                             </div>
                             

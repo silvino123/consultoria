@@ -1,43 +1,26 @@
- <div class="table-responsive">
-                            <table class="table table-bordered table-striped">
-                              <thead>
-                              <tr>
-                              <th colspan="2" class="text-center" style="background-color:#1c84c6;color:#fff" >Reporte general de pruebas aplicadas</th>
-                              </tr>
-                              </thead>
-                              <tbody>
-                              <tr>
-                              <td class="text-center" style="background-color:#d2d2d2;color:#000000"><b>Area<b></td>
-                              <td class="text-center" style="background-color:#d2d2d2;color:#000000"><b>Total<b></td>
-                              
-                              </tr>
-                              <tr>
-                              <td class="text-center"><b><b></td>
-                              <td class="text-center" style="color:#000000"><b><b></td>
-                              </tr>
-                              <tr>
-                              <td class="text-center"><b><b></td>
-                              <td class="text-center" style="color:#000000"><b><b></td>
-                              </tr>
-                              <tr>
-                              <td class="text-center"><b><b></td>
-                              <td class="text-center" style="color:#000000"><b><b></td>
-                              </tr>
-                              <tr>
-                              <td class="text-center"><b><b></td>
-                              <td class="text-center" style="color:#000000"><b><b></td>
-                              </tr>
-                              <tr>
-                              <td class="text-center"  style="background-color:#1c84c6;color:#fff"><b>Total<b></td>
-                              <td class="text-center" style="background-color:#18a689;color:#fff"><b><b></td>
-                              </tr>
-                              <tr>
-                              
-                              </tr>
-                              <tr>
-                              
-                              </tr>
-                              
-                              </tbody>
-                            </table>
-                            <div>
+<?php 
+require('conec.php');
+  
+//  if (!isset( $_SESSION["nombre"])){
+    
+//     header("location:login.html");
+  
+//   }
+ $idsuc= $_SESSION["id_sucursal"];
+ $rs = mysqli_query($con, "SELECT A.id_Area, A.anombre from areas A where sucursales='$idsuc'");
+ while($row = mysqli_fetch_array($rs)){
+
+  echo "<tr id='delete".$row['id_Area']."'>";
+  
+  echo "<td class='text-center'><b>" . $row['anombre'] .  "</b></td>";
+ 
+  
+  echo "</tr>";   
+
+}
+ mysqli_close($con);
+ 
+
+
+?>
+ 
