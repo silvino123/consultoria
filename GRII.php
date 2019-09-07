@@ -5,7 +5,7 @@
                   <div class="ibox float-e-margins">
                      
                       <div class="ibox-content">
-
+                          <input name="tipo" value="GRII" style="display:none">
                           <div class="row show-grid blanco">
                               <div class="col-xs-12 col-md-7" style="background-color:#fff;border-color:#fff"><h3><b>Sección/Pregunta</b></h3></div>
                               <div class="col-xs-6 col-md-5"><b>Repuestas: Siempre, Casi siempre, Algunas veces, Casi nunca, Nunca</b></div>
@@ -877,16 +877,16 @@
                               <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><span class="badge badge-primary">41</span> <b>Atiendo clientes o usuarios muy enojados.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                               <div class="row">
-                               <label class="i-checks"> <input type="radio" required name="GQ41"  value="4" id="inlineCheckbox1"> Siempre </label> 
+                               <label class="i-checks"> <input type="radio"  name="GQ41"  value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ41" value="3" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp;<label class="i-checks"> <input type="radio" required name="GQ41" value="2" id="inlineCheckbox1">Algunas veces </label> 
+                                      <input type="radio" name="GQ41" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      &nbsp;<label class="i-checks"> <input type="radio"name="GQ41" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ41" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio"  name="GQ41" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ41" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio" name="GQ41" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>
@@ -896,16 +896,16 @@
                               <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><span class="badge badge-primary">42</span> <b>Mi trabajo me exige atender personas muy necesitadas de ayuda o enfermas.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                               <div class="row">
-                              <label class="i-checks"> <input type="radio" required name="GQ42" value="4" id="inlineCheckbox1"> Siempre </label> 
+                              <label class="i-checks"> <input type="radio" name="GQ42" value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp; &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ42" value="3" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp; <label class="i-checks"> <input type="radio" required name="GQ42" value="2" id="inlineCheckbox1">Algunas veces </label> 
+                                      <input type="radio" name="GQ42" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      &nbsp; <label class="i-checks"> <input type="radio"  name="GQ42" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ42" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio"  name="GQ42" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ42" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio"  name="GQ42" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>
@@ -914,16 +914,16 @@
                               <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><span class="badge badge-primary">43</span> <b>Para hacer mi trabajo debo demostrar sentimientos distintos a los míos.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                               <div class="row">
-                               <label class="i-checks"> <input type="radio" required name="GQ43" value="4" id="inlineCheckbox1"> Siempre </label> 
+                               <label class="i-checks"> <input type="radio" name="GQ43" value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ43" value="3" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp;<label class="i-checks"> <input type="radio" required name="GQ43" value="2" id="inlineCheckbox1">Algunas veces </label> 
+                                      <input type="radio" name="GQ43" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      &nbsp;<label class="i-checks"> <input type="radio"d name="GQ43" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ43" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio"  name="GQ43" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ43" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio"  name="GQ43" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>
@@ -967,16 +967,16 @@
                               <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><span class="badge badge-primary">44</span> <b>Comunican tarde los asuntos de trabajo.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                               <div class="row">
-                               <label class="i-checks"> <input type="radio" required name="GQ44" value="4" id="inlineCheckbox1"> Siempre </label> 
+                               <label class="i-checks"> <input type="radio"  name="GQ44" value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ44" value="3" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp;<label class="i-checks"> <input type="radio" required name="GQ44" value="2" id="inlineCheckbox1">Algunas veces </label> 
+                                      <input type="radio" name="GQ44" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      &nbsp;<label class="i-checks"> <input type="radio"  name="GQ44" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ44" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio"  name="GQ44" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ44" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio" name="GQ44" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>
@@ -986,16 +986,16 @@
                               <div class="col-xs-7" style="background-color:#e7eaec;border-color:#e7eaec"><h3><span class="badge badge-primary">45</span> <b>Dificultan el logro de los resultados del trabajo.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#e7eaec;border-color:#e7eaec">
                               <div class="row">
-                              <label class="i-checks"> <input type="radio" required name="GQ45" value="4" id="inlineCheckbox1"> Siempre </label> 
+                              <label class="i-checks"> <input type="radio" name="GQ45" value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp; &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ45" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      <input type="radio"  name="GQ45" value="3" id="inlineCheckbox2">Casi siempre </label>
                                       &nbsp; <label class="i-checks"> <input type="radio" required name="GQ45" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ45" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio" name="GQ45" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ45" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio"  name="GQ45" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>
@@ -1004,16 +1004,16 @@
                               <div class="col-xs-7" style="background-color:#fff;border-color:#fff"><h3><span class="badge badge-primary">46</span> <b>Ignoran las sugerencias para mejorar su trabajo.</b></h3></div>
                               <div class="col-xs-5" style="background-color:#fff;border-color:#fff">
                               <div class="row">
-                               <label class="i-checks"> <input type="radio" required name="GQ46" value="4" id="inlineCheckbox1"> Siempre </label> 
+                               <label class="i-checks"> <input type="radio"  name="GQ46" value="4" id="inlineCheckbox1"> Siempre </label> 
                                   &nbsp; &nbsp;&nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ46" value="3" id="inlineCheckbox2">Casi siempre </label>
-                                      &nbsp;<label class="i-checks"> <input type="radio" required name="GQ46" value="2" id="inlineCheckbox1">Algunas veces </label> 
+                                      <input type="radio"  name="GQ46" value="3" id="inlineCheckbox2">Casi siempre </label>
+                                      &nbsp;<label class="i-checks"> <input type="radio"  name="GQ46" value="2" id="inlineCheckbox1">Algunas veces </label> 
                                 
                                        </div>
                                        <div class="row">
-                                       <label class="i-checks"> <input type="radio" required name="GQ46" value="1" id="inlineCheckbox2"> Casi nunca </label>
+                                       <label class="i-checks"> <input type="radio"  name="GQ46" value="1" id="inlineCheckbox2"> Casi nunca </label>
                                       &nbsp;<label class="i-checks">
-                                      <input type="radio" required name="GQ46" value="0" id="inlineCheckbox2"> Nunca </label>
+                                      <input type="radio"  name="GQ46" value="0" id="inlineCheckbox2"> Nunca </label>
                                        </div>
                                        
                               </div>

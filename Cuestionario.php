@@ -2,7 +2,12 @@
 //aqui se obtendra la base de datos el numero empleados
 //$nombre=$_POST['empresa'];
 //sera asigando a la variable
-$numero_empleados= $_POST['sucursal'];
+require('conec.php');
+$suc= $_POST['sucursal'];
+$rs = mysqli_query($con, "SELECT Suc.nempleados FROM sucursales Suc  where id_sucursal ='$suc'");
+ $row = mysqli_fetch_array($rs);
+ $numero_empleados=$row['nempleados'];
+//$numero_empleados= $_POST['sucursal'];
 
 ?>
 <!DOCTYPE html>                                                                                                                                                                                                                                                                                                                                                                 
@@ -68,17 +73,8 @@ $numero_empleados= $_POST['sucursal'];
                                 <div class="col-xs-6 col-md-2"> 
                                 <!-- <button onclick="startWorker()">Start</button> 
                                 <button onclick="stopWorker()">Stop</button> -->
+ 
 
-<div id="contenedor" style="display: inline-flex;">
-        <div class="reloj" id="horas">00</div>
-        <div class="reloj">:</div>
-        <div class="reloj" id="minutos">00</div>
-        <div class="reloj">:</div>
-        <div class="reloj" id="segundos">00</div>
-        <!-- <div class="reloj">:</div>
-        <div class="reloj" id="centesimas">00</div> -->
-
-    </div>
                                 </div>                                                                                                                                                                                                                                                                                                                                                                  
                            
                               </div>                                                                                                                                                                                                                                                                                                                                                               
@@ -88,8 +84,18 @@ $numero_empleados= $_POST['sucursal'];
                             </div>                                                                                                                                                                                                                                                                                                                                                                
                         </div>                                                                                                                                                                                                                                                                                                                                                                  
                         <div class="ibox-content">                                                                                                                                                                                                                                                                                                                                                                  
-
-                            <form id="form" method="POST" action="RegistrarEncuesta.php" class="wizard-big">                                                                                                                                                                                                                                                                                                                                                                  
+                        <form id="form" method="POST" action="RegistrarEncuesta.php" class="wizard-big"> 
+                        <div id="contenedor" style="display: inline-flex;">
+        <div class="reloj" id="horas">00</div>
+        <div class="reloj">:</div>
+        <div class="reloj" id="minutos">00</div>
+        <div class="reloj">:</div>
+        <div class="reloj" id="segundos">00</div>
+        <!-- <div class="reloj">:</div>
+        <div class="reloj" id="centesimas">00</div> -->
+        
+    </div>
+                        <input type="text" value="<?php echo $suc; ?>" name="suc" id="suc" style="display:none">                                                                                                                                                                                                                                                                                                                                                             
                                 <h1>Datos del Trabajador</h1>                                                                                                                                                                                                                                                                                                                                                                   
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
                                 <?php include 'DatosEmpleado.php'; ?>
@@ -113,7 +119,7 @@ $numero_empleados= $_POST['sucursal'];
                                 <?php endif ?>                                                                                                                                                                                                                                                                                                                                                                
                                 <h1>Finalizar</h1>                                                                                                                                                                                                                                                                                                                                                                  
                                 <fieldset>                                                                                                                                                                                                                                                                                                                                                                  
-                                    <h2>Terms and Conditions</h2>                                                                                                                                                                                                                                                                                                                                                                   
+                                    <h2>Aceptar Terminos</h2>                                                                                                                                                                                                                                                                                                                                                                   
                                     <input id="acceptTerms" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms">Acepto haber contestado el cuestionario correctamente.</label>                                                                                                                                                                                                                                                                                                                                                                    
                                 </fieldset>                                                                                                                                                                                                                                                                                                                                                                 
                             </form>                                                                                                                                                                                                                                                                                                                                                                 

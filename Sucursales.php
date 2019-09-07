@@ -116,6 +116,33 @@
     </div>
   </div>
 </div>
+<div class="modal fade" id="pdf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+       <br>
+          <br>
+         
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <h3 class="modal-title text-center" id="exampleModalLabel"><b>Agregar archivo PDF</b></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form class="form-horizontal" method="POST" action="pdf.php" enctype="multipart/form-data">
+                <div class="fetched-data"></div> 
+       
+      
+      <div class="modal-footer">
+     
+        <button type="submit" class="btn btn-primary">Agregar</button>
+      </div>
+       </form>
+       </div>
+    </div>
+  </div>
+</div>
             <div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog"  aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content animated fadeIn">
@@ -287,7 +314,26 @@
      });
 });
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('#pdf').on('show.bs.modal', function (e) {
 
+        var rowid = $(e.relatedTarget).data('id');
+        
+        $.ajax({
+            type : 'post',
+            url : 'CargaPdf.php', 
+            data :  'rowid='+ rowid, //Pass $id
+            success : function(data){
+              
+              $('.fetched-data').html(data);
+
+          
+            }
+        });
+     });
+});
+</script>
 
 </body>
 

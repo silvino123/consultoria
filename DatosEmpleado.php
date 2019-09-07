@@ -137,13 +137,29 @@
 
         <div class="row">               
         <div class="col-md-6">              
-          <label class="col-md-6 control-label">Depto/Area</label>              
+          <label class="col-md-6 control-label">Depto/Area</label> 
+
           </div>                
 
         </div>              
         <div class="row">               
           <div class="col-md-10">               
-          <input type="text"  class="form-control required" name="area" required>             
+          <select class="select2_demo_1 form-control" name="area" id="area" required>
+     <option value="" selected>Seleccione una Area</option>
+     <?php 
+require('conec.php');
+
+$rs = mysqli_query($con, "SELECT * FROM areas");
+
+   while($row = mysqli_fetch_array($rs)){
+  
+     echo"<option value=".$row['id_Area'] ." required >". $row['anombre'] ."</option>";
+                         
+    }
+
+  mysqli_close($con);
+ ?>      
+     </select>             
           </div>                
 
         </div>              

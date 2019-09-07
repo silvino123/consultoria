@@ -20,6 +20,8 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
     <script src="https://kit.fontawesome.com/473290e8a6.js"></script>
 </head>
 
@@ -41,8 +43,8 @@ require('conec.php');
 $rs = mysqli_query($con, "SELECT * FROM sucursales");
 
    while($row = mysqli_fetch_array($rs)){
-  
-     echo"<option value=".$row['nempleados'] ." required >". $row['snombre'] ."</option>";
+     
+     echo"<option value=".$row['id_sucursal'] ." required >". $row['snombre'] ."</option>";
                          
     }
 
@@ -75,9 +77,10 @@ $rs = mysqli_query($con, "SELECT * FROM sucursales");
                                 <tr style="background-color:#1c84c6;color:#fff">
                                     <th>Folio</th>
                                     <th>Fecha</th>
-                                    <th data-hide="phone,tablet">Sucursal</th>
+                                    <th >Sucursal</th>
                                     <!-- <th data-hide="phone,tablet">Realizada por</th> -->
-                                    <th data-hide="phone,tablet">Tipo</th>
+                                    <th >Tipo</th>
+                                   
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -103,7 +106,10 @@ $rs = mysqli_query($con, "SELECT * FROM sucursales");
 </div>
 </div>
      
-
+<script src="js/active.js"></script>
+<script src="js/alertifyjs/alertify.js"></script>
+    <script src="js/alertifyjs/alertify.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
     <!-- Mainly scripts -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

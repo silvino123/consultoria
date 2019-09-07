@@ -7,9 +7,10 @@ require('conec.php');
   
 //   }
  $idsuc= $_SESSION["id_sucursal"];
- $rs = mysqli_query($con, "SELECT Suc.nempleados FROM sucursales Suc  where id_sucursal ='$idsuc'");
+ $rs = mysqli_query($con, "SELECT Suc.nempleados,Suc.documento FROM sucursales Suc  where id_sucursal ='$idsuc'");
  $row = mysqli_fetch_array($rs);
  $empleados=$row['nempleados'];
+ $doc=$row['documento'];
  $consultacues = "SELECT * FROM cuestionario where  id_sucursal='$idsuc'";
  $resultadocues = mysqli_query($con,$consultacues);
  $totalcues = mysqli_num_rows($resultadocues);
@@ -239,24 +240,32 @@ require('conec.php');
                               </tr> -->
                               <tr>
                               <td class="text-center"  style="background-color:#1c84c6;color:#fff"><b>Total<b></td>
-                              <td class="text-center" style="background-color:#18a689;color:#fff"><b><b></td>
+                              <td class="text-center" style="background-color:#18a689;color:#fff"><b><?php echo $totalcues; ?><b></td>
                               </tr>
                              
                               </tbody>
                             </table>
-                            <div>
-                           
-                            </div>
+                            
+                            
                             </div>
                             <!-- final row div -->
+                            <div class="row">
+                            <div class="col-lg-10">
+                           <h2> Documento PDF del Analisis</h2> <h3> <a href="Documentos/<?php echo $doc; ?>" target="_blank" ><b><?php echo $doc; ?></b></a></h3>
+                            </div>
+                            <div class="col-lg-2">
+                            
+                            </div>
+                            </div>
                              </div>
 
                             </div>
                         </div>
+                        
                     </div>
                     <!-- final row mapa de riesgos -->
 
-
+                    
       
 </div>
 

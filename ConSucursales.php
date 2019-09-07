@@ -22,12 +22,12 @@ $rs = mysqli_query($con, "SELECT S.id_sucursal, S.snombre, E.Nombre, S.giro, S.r
                           echo "<td> ". $row['telefono'] . "</td>";
                           
                           echo "<td> ". $row['EstadoE'] . "</td>";
-                          echo "<td> ". $row['documento'] . "</td>";
+                          echo "<td><a> ". $row['documento'] ."</a></td>";
                           echo "<td>
                          
                            <a class='btn btn-success' data-toggle='modal' data-target='#Sucursales' data-id=".$row['id_sucursal']."><i class='fas fa-pencil-alt' title='Editar' ></i></a> 
                           <a onclick='deleteAjax(".$row['id_sucursal'].")' class='btn btn-danger'><i class='fas fa-trash' title='Eliminar'></i></a>
-                          
+                          <a class='btn btn-info' data-toggle='modal' data-target='#pdf' data-id=".$row['id_sucursal']."><i class='fas fa-file-pdf' title='Agregar PDF' ></i></a> 
                           </td>";
                           echo "</tr>";   
 

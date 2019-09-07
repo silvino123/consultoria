@@ -5,7 +5,7 @@
                   <div class="ibox float-e-margins">
                      
                       <div class="ibox-content">
-
+                      <input name="tipo" value="GRIII" style="display:none">
                           <div class="row show-grid blanco">
                               <div class="col-xs-12 col-md-7" style="background-color:#fff;border-color:#fff"><h3><b>Sección/Pregunta</b></h3></div>
                               <div class="col-xs-6 col-md-5"><b>Repuestas: Siempre, Casi siempre, Algunas veces, Casi nunca, Nunca</b></div>
